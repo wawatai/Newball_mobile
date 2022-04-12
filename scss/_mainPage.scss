@@ -637,8 +637,28 @@
                     flex-shrink: 0;
 
                     i {
-                        width: 3.5vw;
-                        height: 3.5vw;
+                        width: 5vw;
+                        height: 5vw;
+                        position: relative;
+
+                        &::before,
+                        &::after {
+                            content: "";
+                            position: absolute;
+                            top: 50%;
+                            left: 52%;
+                            width: 0.5vw;
+                            height: 4vw;
+                            background: $title_4;
+                            border-radius: 1vw;
+                        }
+
+                        &::before {
+                            transform: translate(-50%,-50%) rotate(45deg);
+                        }
+                        &::after {
+                            transform: translate(-50%,-50%) rotate(-45deg);
+                        }
                     }   
                 }
 
@@ -1010,6 +1030,26 @@
         i {
             width: 4vw;
             height: 4vw;
+            position: relative;
+
+            &::before,
+            &::after {
+                content: "";
+                position: absolute;
+                top: 50%;
+                left: 52%;
+                width: 0.5vw;
+                height: 5vw;
+                background: $title_5;
+                border-radius: 1vw;
+            }
+
+            &::before {
+                transform: translate(-50%,-50%) rotate(45deg);
+            }
+            &::after {
+                transform: translate(-50%,-50%) rotate(-45deg);
+            }
         }
 
         .back {

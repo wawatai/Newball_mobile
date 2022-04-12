@@ -432,10 +432,29 @@
             border-radius: 2vw 2vw 0 0;
 
             i {
-                width: 4vw;
-                height: 3.4vw;
+                width: 5vw;
+                height: 5vw;
                 position: absolute;
                 right: 2vw;
+
+                &::before,
+                &::after {
+                    content: "";
+                    position: absolute;
+                    top: 50%;
+                    left: 52%;
+                    width: 0.5vw;
+                    height: 4vw;
+                    background: $Border_1;
+                    border-radius: 1vw;
+                }
+
+                &::before {
+                    transform: translate(-50%,-50%) rotate(45deg);
+                }
+                &::after {
+                    transform: translate(-50%,-50%) rotate(-45deg);
+                }
             }
         }
 
@@ -501,10 +520,29 @@
             border-radius: 2vw 2vw 0 0;
 
             i {
-                width: 4vw;
-                height: 3.4vw;
+                width: 5vw;
+                height: 5vw;
                 position: absolute;
                 right: 2vw;
+
+                &::before,
+                &::after {
+                    content: "";
+                    position: absolute;
+                    top: 50%;
+                    left: 52%;
+                    width: 0.5vw;
+                    height: 4vw;
+                    background: $Border_1;
+                    border-radius: 1vw;
+                }
+
+                &::before {
+                    transform: translate(-50%,-50%) rotate(45deg);
+                }
+                &::after {
+                    transform: translate(-50%,-50%) rotate(-45deg);
+                }
             }
         }
 

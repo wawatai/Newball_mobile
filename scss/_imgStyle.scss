@@ -111,10 +111,6 @@ footer.inner i {
     background: url('../images/empty_1.png') no-repeat;
     background-size: contain;
 }
-.searchWrap .cancel_ic {
-    background: url('../images/icon/cancel_b.png') no-repeat;
-    background-size: contain;
-}
 .searchWrap .search_ic {
     background: url('../images/icon/search_ic.png') no-repeat;
     background-size: contain;
@@ -137,10 +133,6 @@ footer.inner i {
 }
 .multiWrap .title .arrow_ic {
     background: url('../images/icon/dbArrow_b.png') no-repeat;
-    background-size: contain;
-}
-.multiWrap .detailWindow .close_ic {
-    background: url('../images/icon/cancel_g.png') no-repeat;
     background-size: contain;
 }
 
@@ -312,12 +304,6 @@ footer.inner i {
 }
 
 //jumpWindow
-.jumpWindow.ballType .close_ic,
-.jumpWindow.timeType .close_ic {
-    background: url('../images/icon/cancel_y.png') no-repeat;
-    background-size: contain;
-}
-
 .jumpWindow .bettingBox .arrow_ic {
     background: url('../images/icon/arrow_y.png') no-repeat;
     background-size: contain;
