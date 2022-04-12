@@ -41,7 +41,7 @@
                     align-items: center;
                     justify-content: center;
                     flex-direction: column;
-                    background: $deposit_listBG;
+                    background: $secondBG_1;
                     border: solid 1px $Border_1;
                     border-radius: 1vw;
                     overflow: hidden;
@@ -168,8 +168,5 @@
         height: 11vw;
         @include setMenuBtn;
         margin: 2vw auto;
-        position: static;
-        display: block;
-        border-radius: 2vw;
     }
 }

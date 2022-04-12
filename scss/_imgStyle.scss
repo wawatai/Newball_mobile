@@ -295,6 +295,22 @@ footer.inner i {
     background-size: contain;
 }
 
+//card
+.cardWrap .plusBtn {
+    background: url('../images/icon/cardAdd_ic.png') no-repeat;
+    background-size: contain;
+}
+.cardWrap .ready {
+    background: url('../images/icon/cardReady_ic.png') no-repeat;
+    background-size: cover;
+}
+
+//contact
+.contactWrap .left div {
+    background: url('../images/icon/contact_ic.png') no-repeat;
+    background-size: 500%;
+}
+
 //jumpWindow
 .jumpWindow.ballType .close_ic,
 .jumpWindow.timeType .close_ic {

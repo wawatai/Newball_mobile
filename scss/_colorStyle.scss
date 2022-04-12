@@ -23,13 +23,15 @@ $mainBG_1: #feb300; //版型主背景色
 $mainBG_2: #2f3f58; //視窗選項底色
 $mainBG_3: #25344b;
 
+//次背景色
+$secondBG_1: #3d5261;
+$secondBG_2: #455c80;
+$secondBG_3: #3a4f6f;
+$secondBG_4: #44608a;
+
 
 //各部位大組件類
 
-
-//marquee
-$marquee_BG: #3d5261;
-$marquee_Word: #ffcc41;
 
 //login
 @mixin slip {
@@ -49,8 +51,6 @@ $marquee_Word: #ffcc41;
 }
 
 //header
-$header_BG: #feb300;
-$header_Word: #212832;
 $header_msgNotice: #b500f0;
 
 //home
@@ -62,22 +62,17 @@ $mainList_cornerDot_Shadow: #00000080;
 
 //footer
 $footer_BG: #27303c;
-$footer_Border: #feb300;
 $footer_Word: #9ea5af;
-$footer_Active: #feb300;
 $footer_Shadow: #0000001e;
 
 //mainPage
 $mainPage_ListBG: #2d3644;
 $mainPage_Color_Ing: #4eff1f;
 $mainPage_Color_Wait: #2ac5ff;
-$mainPage_gameBoxTitle: #455c80;
-$mainPage_gameBoxType: #3d5261;
 $mainPage_innerBox1: #e12258;
 $mainPage_innerBox2: #1c3e73;
 $mainPage_innerBox3: #0095e2;
 $mainPage_liveLinear: linear-gradient(to right,#feb300 0%,#fe9b00 100%);
-$mainPage_teamNameBG: #44608a;
 @mixin checkboxStyle {
     position: relative;
 
@@ -91,9 +86,6 @@ $mainPage_teamNameBG: #44608a;
     }
 }
 
-//投注彈窗betWindow
-$betWindow_BG2: #3a4f6f;
-
 //teach
 $teachResult_BG1: #1d2635;
 $teachResult_BG2: linear-gradient(to bottom,#415471 0%,#2f3f58 100%);
@@ -103,13 +95,11 @@ $teachResult_Border3: #5c6d79;
 
 //result + record
 $resultWindow_Title: #283d5c;
-$resultWindow_BG: #44608a;
 $resultWindow_Border: #aecbdf;
 
 //串關multiWrap
 $multiWrap_Title: #ffde84;
 $multiWrap_Money: #eb0808;
-$multiWrap_BG: #3a4f6f;
 $multiWrap_Sus: #4eff1f;
 
 //record
@@ -119,13 +109,39 @@ $record_topNameBG: #222a38;
 $record_listBG: #31425b;
 
 //sevice
-$service_BG: #3d5261;
-$service_optionTitle: #455c80;
 $service_titleBorder: #9ab1d4;
 
 //deposit
-$deposit_listBG: #3d5261;
 $deposit_Active: #ffffff;
+
+//card
+@mixin card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 2vw;
+    background: linear-gradient(to right,#ffcc41 0%,#feb300 100%);
+    border: solid 1px #ffffff;
+    flex-shrink: 0;
+    padding: 4vw;
+    position: relative;
+    overflow: hidden;
+
+    &.empty {
+        background: linear-gradient(to right,#505b68 0%,#3c4653 100%);
+        border-color: #5c6d79;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+
+        p {
+            color: #a8b0be;
+        }
+    }
+
+    p {
+        color: #212832;
+    }
+}
 
 
 //input
@@ -201,13 +217,12 @@ $deposit_Active: #ffffff;
 
 //設置菜單 + 投注彈窗下大按鈕
 @mixin setMenuBtn {
+    display: block;
     background: #feb300;
     color: #212832;
     font-size: 4vw;
     font-weight: bold;
-    position: absolute;
-    left: 0;
-    bottom: 0;
+    border-radius: 2vw;
 
     &:active,&.active {
         background: #ffffff;
@@ -407,8 +422,6 @@ $deposit_Active: #ffffff;
 
     span {
         color: #cadbf6;
-        font-size: 3.4vw;
-        font-weight: bold;
     }
 }
 
@@ -426,7 +439,7 @@ $deposit_Active: #ffffff;
     padding-left: 4vw;
     background-color: #1b2739;
     background-image: linear-gradient(45deg, transparent 50%, #feb300 0), linear-gradient(135deg, #feb300 50%, transparent 0);
-    background-position: calc(100% - 4vw) calc(1em), calc(100% - 3vw) calc(1em);
+    background-position: calc(100% - 4vw) calc(50%), calc(100% - 3vw) calc(54%);
     background-size: 6px 5px, 5px 6px;
     background-repeat: no-repeat;
     appearance: none;

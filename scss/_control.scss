@@ -171,14 +171,14 @@
         align-items: center;
         justify-content: space-between;
         padding: 0 4vw;
-        background: $header_BG;
+        background: $mainBG_1;
         position: relative;
 
         .title {
             position: absolute;
             left: 50%;
             transform: translateX(-50%);
-            color: $header_Word;
+            color: $title_5;
             font-weight: bold;
             font-size: 5vw;
             white-space: nowrap;
@@ -236,8 +236,5 @@
         height: 11vw;
         @include setMenuBtn;
         margin: 2vw auto;
-        position: static;
-        border-radius: 2vw;
-        display: block;
     }
 }

@@ -109,6 +109,10 @@
             width: 100%;
             height: 12vw;
             @include setMenuBtn;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            border-radius: 0;
         }
     }
 
@@ -254,7 +258,7 @@
         .bottom {
             width: 100%;
             height: auto;
-            background: $betWindow_BG2;
+            background: $secondBG_3;
             padding: 0 3.5vw;
             margin-top: 18vw;
 
@@ -379,7 +383,6 @@
             width: 100%;
             height: 12vw;
             @include setMenuBtn;
-            position: static;
             border-radius: 0 0 2vw 2vw;
         }
     }
@@ -392,7 +395,7 @@
         transform: translateX(-50%);
         width: 96%;
         height: auto;
-        background: $resultWindow_BG;
+        background: $secondBG_4;
         border: solid 1px $resultWindow_Border;
         border-radius: 2vw;
         display: none;
@@ -461,7 +464,7 @@
         transform: translateX(-50%);
         width: 96%;
         height: auto;
-        background: $resultWindow_BG;
+        background: $secondBG_4;
         border: solid 1px $resultWindow_Border;
         border-radius: 2vw;
         display: none;
@@ -615,7 +618,7 @@
                 width: 100%;
                 height: auto;
                 padding: 1vw;
-                background: $resultWindow_BG;
+                background: $secondBG_4;
     
                 .bettingBox {
                     width: 100%;
@@ -763,9 +766,7 @@
                 width: 100%;
                 height: 9vw;
                 @include setMenuBtn;
-                position: static;
                 margin: 3vw 0;
-                border-radius: 2vw;
             }
         }
     }

@@ -6,7 +6,7 @@ footer {
     bottom: 0;
     left: 0;
     border-radius: 5vw 5vw 0 0;
-    border-top: solid 2px $footer_Border;
+    border-top: solid 2px $Border_1;
     padding: 0 4vw;
     z-index: 10;
     box-shadow: 0 -10px 10px 0 $footer_Shadow;
@@ -60,7 +60,7 @@ footer {
                     }
 
                     p {
-                        color: $footer_Active;
+                        color: $title_1;
                     }
                 }
             }

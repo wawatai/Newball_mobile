@@ -222,7 +222,7 @@
         align-items: center;
         justify-content: space-between;
         padding: 0 4vw;
-        background: $header_BG;
+        background: $mainBG_1;
         position: relative;
         flex-shrink: 0;
 
@@ -230,7 +230,7 @@
             position: absolute;
             left: 50%;
             transform: translateX(-50%);
-            color: $header_Word;
+            color: $title_5;
             font-weight: bold;
             font-size: 5vw;
             white-space: nowrap;
@@ -355,7 +355,6 @@
                     width: 15vw;
                     height: 6vw;
                     @include setMenuBtn;
-                    left: unset;
                     right: 0;
                     bottom: 1.5vw;
                     font-size: 3vw;
@@ -368,8 +367,6 @@
             width: 96%;
             height: 11vw;
             @include setMenuBtn;
-            position: static;
-            border-radius: 2vw;
             margin: 2vw auto;
             display: none;
 

@@ -57,7 +57,7 @@
         height: 23vw;
         padding: 4vw 4vw 4vw 0;
         display: flex;
-        background: $service_BG;
+        background: $secondBG_1;
         border-radius: 2vw;
         margin-bottom: 2vw;
         border: solid 1px $Border_1;
@@ -136,7 +136,7 @@
         align-items: center;
         justify-content: space-between;
         padding: 0 4vw;
-        background: $header_BG;
+        background: $mainBG_1;
         position: relative;
         flex-shrink: 0;
 
@@ -144,7 +144,7 @@
             position: absolute;
             left: 50%;
             transform: translateX(-50%);
-            color: $header_Word;
+            color: $title_5;
             font-weight: bold;
             font-size: 5vw;
             white-space: nowrap;
@@ -266,10 +266,7 @@
             width: 96%;
             height: 11vw;
             @include setMenuBtn;
-            position: static;
-            display: block;
             margin: 2vw auto;
-            border-radius: 2vw;
         }
     }
 }
@@ -299,7 +296,7 @@
         align-items: center;
         justify-content: space-between;
         padding: 0 4vw;
-        background: $header_BG;
+        background: $mainBG_1;
         position: relative;
         flex-shrink: 0;
 
@@ -307,7 +304,7 @@
             position: absolute;
             left: 50%;
             transform: translateX(-50%);
-            color: $header_Word;
+            color: $title_5;
             font-weight: bold;
             font-size: 5vw;
             white-space: nowrap;
@@ -343,7 +340,7 @@
                     display: flex;
                     align-items: center;
                     justify-content: space-between;
-                    background: $service_optionTitle;
+                    background: $secondBG_2;
                     padding: 0 3vw;
 
                     .name {

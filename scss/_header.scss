@@ -1,7 +1,7 @@
 header {
     width: 100%;
     height: 10.5vw;
-    background: $header_BG;
+    background: $mainBG_1;
     position: fixed;
     top: 0;
     left: 0;
@@ -18,7 +18,7 @@ header {
         height: auto;
         font-size: 5vw;
         font-weight: bold;
-        color: $header_Word;
+        color: $title_5;
     }
 
     //icon
@@ -80,7 +80,7 @@ header {
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
-        color: $header_Word;
+        color: $title_5;
         font-size: 5vw;
         font-weight: bold;
         display: flex;
@@ -91,7 +91,7 @@ header {
             height: 0;
             border-style: solid;
             border-width: 6px 4px 0 4px;
-            border-color: $header_Word transparent;
+            border-color: $title_5 transparent;
             margin-left: 2vw;
         }
     }

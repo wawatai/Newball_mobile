@@ -179,7 +179,7 @@
                     .title {
                         width: 100%;
                         height: 6vw;
-                        background: $mainPage_gameBoxTitle;
+                        background: $secondBG_2;
                         align-items: center;
                         padding: 0 2vw;
                         color: $title_1;
@@ -374,7 +374,7 @@
                                 .betType {
                                     width: 100%;
                                     height: 6vw;
-                                    background: $mainPage_gameBoxType;
+                                    background: $secondBG_1;
                                     display: flex;
                                     align-items: center;
                                     justify-content: flex-end;
@@ -724,7 +724,7 @@
             .content {
                 width: 100%;
                 height: auto;
-                background: $multiWrap_BG;
+                background: $secondBG_3;
                 padding: 0 1vw;
     
                 .top {
@@ -947,8 +947,6 @@
                     width: 44vw;
                     height: 12vw;
                     @include setMenuBtn;
-                    position: static;
-                    border-radius: 2vw;
     
                     span {
                         display: block;
@@ -966,10 +964,7 @@
                     width: 98%;
                     height: 9vw;
                     @include setMenuBtn;
-                    display: block;
-                    position: static;
                     margin: 0 auto;
-                    border-radius: 2vw;
                 }
             }
         }
@@ -999,14 +994,14 @@
         align-items: center;
         justify-content: space-between;
         padding: 0 4vw;
-        background: $header_BG;
+        background: $mainBG_1;
         position: relative;
 
         .title {
             position: absolute;
             left: 50%;
             transform: translateX(-50%);
-            color: $header_Word;
+            color: $title_5;
             font-weight: bold;
             font-size: 5vw;
             white-space: nowrap;
@@ -1020,7 +1015,7 @@
         .back {
             font-size: 3.7vw;
             font-weight: bold;
-            color: $header_Word;
+            color: $title_5;
         }
     }
 
@@ -1258,7 +1253,7 @@
             align-items: center;
             justify-content: space-between;
             padding: 0 2vw;
-            background: $header_BG;
+            background: $mainBG_1;
             position: relative;
             flex-shrink: 0;
     
@@ -1266,7 +1261,7 @@
                 position: absolute;
                 left: 50%;
                 transform: translateX(-50%);
-                color: $header_Word;
+                color: $title_5;
                 font-weight: bold;
                 font-size: 3.7vw;
                 white-space: nowrap;
@@ -1305,7 +1300,7 @@
             width: 100%;
             height: 7vw;
             display: flex;
-            background: $mainPage_teamNameBG;
+            background: $secondBG_2;
 
             .time {
                 width: auto;
@@ -1463,6 +1458,11 @@
                             &.cus {
                                 background: $mainPage_innerBox3;
                             }
+                        }
+
+                        span {
+                            font-size: 3.4vw;
+                            font-weight: bold;
                         }
                     }
                 }
