@@ -65,7 +65,7 @@
             margin-bottom: 1.5vw;
 
             .title {
-                font-size: 3.4vw;
+                font-size: 3.7vw;
                 font-weight: bold;
                 color: $title_1;
                 margin-bottom: 1vw;
@@ -268,7 +268,7 @@
                 display: flex;
                 align-items: center;
                 color: $title_1;
-                font-size: 3.4vw;
+                font-size: 3.7vw;
                 font-weight: bold;
 
                 span {
@@ -295,7 +295,7 @@
                     right: 2vw;
                     color: $title_3;
                     font-weight: bold;
-                    font-size: 3.4vw;
+                    font-size: 3.7vw;
                 }
             }
 
@@ -336,7 +336,7 @@
                             width: 50%;
                             color: $title_1;
                             border-right: solid 1px $Border_1;
-                            font-size: 3.4vw;
+                            font-size: 3.7vw;
                             font-weight: bold;
                             margin-bottom: 3vw;
 
@@ -348,7 +348,7 @@
                         .num {
                             width: 50%;
                             color: $title_3;
-                            font-size: 3.4vw;
+                            font-size: 3.7vw;
                             font-weight: bold;
                             text-align: right;
                         }
@@ -372,7 +372,7 @@
 
                 p {
                     color: $remind_1;
-                    font-size: 3.4vw;
+                    font-size: 3.7vw;
                     font-weight: bold;
                     margin-left: 2vw;
                 }
@@ -426,7 +426,7 @@
             justify-content: center;
             position: relative;
             color: $title_1;
-            font-size: 3.4vw;
+            font-size: 3.7vw;
             font-weight: bold;
             background: $resultWindow_Title;
             border-radius: 2vw 2vw 0 0;
@@ -514,7 +514,7 @@
             justify-content: center;
             position: relative;
             color: $title_1;
-            font-size: 3.4vw;
+            font-size: 3.7vw;
             font-weight: bold;
             background: $resultWindow_Title;
             border-radius: 2vw 2vw 0 0;
@@ -641,7 +641,7 @@
 
                 span {
                     color: $title_5;
-                    font-size: 3.4vw;
+                    font-size: 3.7vw;
                     font-weight: bold;
                 }
             }
@@ -702,14 +702,14 @@
 
                 .top {
                     color: $title_1;
-                    font-size: 3.4vw;
+                    font-size: 3.7vw;
                     font-weight: bold;
                     margin-bottom: 2vw;
                 }
 
                 .num {
                     color: $title_2;
-                    font-size: 3.4vw;
+                    font-size: 3.7vw;
                     font-weight: bold;
                 }
             }
@@ -775,7 +775,7 @@
 
             p {
                 color: $title_1;
-                font-size: 3.4vw;
+                font-size: 3.7vw;
                 font-weight: bold;
             }
         }
@@ -795,7 +795,7 @@
 
                 p {
                     color: $title_3;
-                    font-size: 3.4vw;
+                    font-size: 3.7vw;
                     font-weight: bold;
                 }
             }
@@ -806,6 +806,77 @@
                 @include setMenuBtn;
                 margin: 3vw 0;
             }
+        }
+    }
+
+    //串關計算機
+    .calc {
+        width: 88%;
+        height: auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        background: $mainBG_3;
+        border: solid 1px $Border_1;
+        border-radius: 2vw;
+        display: none;
+
+        &.display {
+            display: block;
+        }
+
+        .cancelBtn {
+            position: absolute;
+            top: -10vw;
+            right: -2vw;
+            width: 7vw;
+            height: 7vw;
+            border-radius: 50%;
+            border: solid 1px $Border_1;
+            background: $mainBG_3;
+
+            &::before,
+            &::after {
+                content: "";
+                position: absolute;
+                top: 50%;
+                left: 52%;
+                width: 0.5vw;
+                height: 4vw;
+                background: $Border_1;
+                border-radius: 1vw;
+            }
+
+            &::before {
+                transform: translate(-50%,-50%) rotate(45deg);
+            }
+            &::after {
+                transform: translate(-50%,-50%) rotate(-45deg);
+            }
+        }
+
+        .title {
+            width: 100%;
+            height: 10vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            border-radius: 2vw 2vw 0 0;
+            border-bottom: solid 1px $Border_2;
+
+            p {
+                color: $title_1;
+                font-size: 3.7vw;
+                font-weight: bold;
+            }
+        }
+
+        .content {
+            width: 96%;
+            height: auto;
+            margin: 2% auto;
         }
     }
 }

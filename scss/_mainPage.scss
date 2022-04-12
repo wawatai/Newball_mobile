@@ -154,7 +154,7 @@
                     display: flex;
                     align-items: center;
                     padding: 0 2vw;
-                    font-size: 3.4vw;
+                    font-size: 3.7vw;
                     color: $mainPage_Color_Ing;
                     border-top: solid 1px $mainPage_Color_Ing;
 
@@ -288,7 +288,7 @@
                             justify-content: center;
 
                             p {
-                                font-size: 3.4vw;
+                                font-size: 3.7vw;
                                 font-weight: bold;
                                 color: $title_3;
                                 display: flex;
@@ -324,7 +324,7 @@
 
                             button {
                                 width: 33%;
-                                height: 8.5vw;
+                                height: 9.5vw;
                                 @include betBtn_ing;
 
                                 span {
@@ -513,7 +513,7 @@
         p {
             color: $title_4;
             font-weight: bold;
-            font-size: 3.4vw;
+            font-size: 3.7vw;
         }
     }
 
@@ -578,7 +578,7 @@
                 justify-content: center;
                 color: $title_3;
                 font-weight: bold;
-                font-size: 3.4vw;
+                font-size: 3.7vw;
                 margin-right: 2vw;
             }
 
@@ -598,7 +598,7 @@
 
             .money {
                 color: $title_5;
-                font-size: 3.4vw;
+                font-size: 3.7vw;
                 font-weight: bold;
 
                 span {
@@ -672,7 +672,7 @@
                     .first {
                         color: $title_1;
                         font-weight: bold;
-                        font-size: 3.4vw;
+                        font-size: 3.7vw;
                         margin-bottom: 1vw;
 
                         span {
@@ -690,14 +690,14 @@
                     .league {
                         color: $title_2;
                         font-weight: bold;
-                        font-size: 3.4vw;
+                        font-size: 3.7vw;
                         margin-bottom: 1vw;
                     }
 
                     .team {
                         color: $title_2;
                         font-weight: bold;
-                        font-size: 3.4vw;
+                        font-size: 3.7vw;
 
                         span {
                             color: $title_4;
@@ -757,7 +757,7 @@
     
                     .num {
                         color: $title_1;
-                        font-size: 3.4vw;
+                        font-size: 3.7vw;
                         font-weight: bold;
     
                         span {
@@ -783,7 +783,7 @@
                             transform: translateY(-50%);
                             color: $title_3;
                             font-weight: bold;
-                            font-size: 3.4vw;
+                            font-size: 3.7vw;
                         }
                     }
                 }
@@ -824,7 +824,7 @@
                             .kind {
                                 width: 50%;
                                 color: $title_1;
-                                font-size: 3.4vw;
+                                font-size: 3.7vw;
                                 font-weight: bold;
                                 border-right: solid 1px $Border_1;
                                 margin-bottom: 3vw;
@@ -833,7 +833,7 @@
                             .num {
                                 width: 50%;
                                 color: $title_3;
-                                font-size: 3.4vw;
+                                font-size: 3.7vw;
                                 font-weight: bold;
                                 text-align: right;
                             }
@@ -871,7 +871,7 @@
 
                     p {
                         color: $multiWrap_Sus;
-                        font-size: 3.4vw;
+                        font-size: 3.7vw;
                         font-weight: bold;
                         margin-left: 2vw;
                     }
@@ -895,7 +895,7 @@
 
                             p {
                                 color: $title_3;
-                                font-size: 3.4vw;
+                                font-size: 3.7vw;
                                 font-weight: bold;
 
                                 &.name {
@@ -931,7 +931,7 @@
 
                             p {
                                 color: $title_3;
-                                font-size: 3.4vw;
+                                font-size: 3.7vw;
                                 font-weight: bold;
 
                                 &.name {
@@ -1115,7 +1115,7 @@
 
                 .check {
                     color: $title_2;
-                    font-size: 3.4vw;
+                    font-size: 3.7vw;
                     display: flex;
                     align-items: center;
                     font-weight: bold;
@@ -1203,7 +1203,7 @@
             p {
                 color: $title_3;
                 font-weight: bold;
-                font-size: 3.4vw;
+                font-size: 3.7vw;
                 letter-spacing: 1px;
             }
 
@@ -1235,7 +1235,7 @@
             .team {
                 color: $title_1;
                 font-weight: bold;
-                font-size: 3.4vw;
+                font-size: 3.7vw;
                 margin-bottom: 2vw;
 
                 span {
@@ -1278,7 +1278,7 @@
             bottom: 2vw;
             color: $title_3;
             font-weight: bold;
-            font-size: 3.4vw;
+            font-size: 3.7vw;
 
             i {
                 width: 5vw;
@@ -1356,7 +1356,7 @@
                 p {
                     color: $title_5;
                     font-weight: bold;
-                    font-size: 3.4vw;
+                    font-size: 3.7vw;
                 }
             }
 
@@ -1370,12 +1370,12 @@
                 .name {
                     color: $title_3;
                     font-weight: bold;
-                    font-size: 3.4vw;
+                    font-size: 3.7vw;
                 }
 
                 span {
                     color: $title_2;
-                    font-size: 3.4vw;
+                    font-size: 3.7vw;
                     font-weight: bold;
                     margin: 0 3vw;
                 }
@@ -1416,7 +1416,7 @@
 
                 p {
                     color: $title_1;
-                    font-size: 3.4vw;
+                    font-size: 3.7vw;
                     font-weight: bold;
                 }
             }
@@ -1441,7 +1441,7 @@
 
                 .title {
                     color: $title_3;
-                    font-size: 3.4vw;
+                    font-size: 3.7vw;
                     font-weight: bold;
                     padding-left: 1vw;
                     border-left: solid 2px $Border_1;
@@ -1459,7 +1459,7 @@
                     span {
                         width: 34%;
                         color: $title_3;
-                        font-size: 3.4vw;
+                        font-size: 3.7vw;
                         font-weight: bold;
                         text-align: center;
                     }
@@ -1501,7 +1501,7 @@
                         }
 
                         span {
-                            font-size: 3.4vw;
+                            font-size: 3.7vw;
                             font-weight: bold;
                         }
                     }

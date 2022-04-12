@@ -693,7 +693,7 @@ html body .operate .user {
   align-items: flex-start;
 }
 html body .operate .user .userName {
-  font-size: 3.4vw;
+  font-size: 3.7vw;
   font-weight: bold;
   color: #feb300;
   margin-bottom: 2vw;
@@ -827,7 +827,7 @@ html body .mainList .list ul li .title {
   margin-bottom: 1vw;
 }
 html body .mainList .list ul li .num {
-  font-size: 4.5vw;
+  font-size: 6vw;
   font-weight: bold;
   position: relative;
   z-index: 1;
@@ -1030,7 +1030,7 @@ html body footer ul li a i.member_ic, html body footer ul li a i.refresh_ic {
   background-position-x: 100%;
 }
 html body footer ul li a p {
-  font-size: 3.4vw;
+  font-size: 3.7vw;
   font-weight: bold;
   color: #9ea5af;
   width: 100%;
@@ -1208,7 +1208,7 @@ html body .filter .setMenu .rowBox {
   margin-bottom: 1.5vw;
 }
 html body .filter .setMenu .rowBox .title {
-  font-size: 3.4vw;
+  font-size: 3.7vw;
   font-weight: bold;
   color: #feb300;
   margin-bottom: 1vw;
@@ -1408,7 +1408,7 @@ html body .filter .betWindow .bottom .title {
   display: flex;
   align-items: center;
   color: #feb300;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
   font-weight: bold;
 }
 html body .filter .betWindow .bottom .title span {
@@ -1441,7 +1441,7 @@ html body .filter .betWindow .bottom .inputBox p {
   right: 2vw;
   color: #ffffff;
   font-weight: bold;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
 }
 html body .filter .betWindow .bottom .btnBox {
   width: 100%;
@@ -1458,7 +1458,7 @@ html body .filter .betWindow .bottom .btnBox button {
   border-radius: 1vw;
   color: #ffffff;
   font-weight: bold;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
   margin-bottom: 1vw;
 }
 html body .filter .betWindow .bottom .btnBox button:active, html body .filter .betWindow .bottom .btnBox button.active {
@@ -1485,7 +1485,7 @@ html body .filter .betWindow .bottom .infoBox ul li .kind {
   width: 50%;
   color: #feb300;
   border-right: solid 1px #feb300;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
   font-weight: bold;
   margin-bottom: 3vw;
 }
@@ -1495,7 +1495,7 @@ html body .filter .betWindow .bottom .infoBox ul li .kind:last-child {
 html body .filter .betWindow .bottom .infoBox ul li .num {
   width: 50%;
   color: #ffffff;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
   font-weight: bold;
   text-align: right;
 }
@@ -1514,7 +1514,7 @@ html body .filter .betWindow .bottom .check input {
 }
 html body .filter .betWindow .bottom .check p {
   color: #ff8207;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
   font-weight: bold;
   margin-left: 2vw;
 }
@@ -1568,7 +1568,7 @@ html body .filter .ballType .title {
   justify-content: center;
   position: relative;
   color: #feb300;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
   font-weight: bold;
   background: #283d5c;
   border-radius: 2vw 2vw 0 0;
@@ -1657,7 +1657,7 @@ html body .filter .timeType .title {
   justify-content: center;
   position: relative;
   color: #feb300;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
   font-weight: bold;
   background: #283d5c;
   border-radius: 2vw 2vw 0 0;
@@ -1780,7 +1780,7 @@ html body .filter .betListWindow .title .num {
 }
 html body .filter .betListWindow .title .num span {
   color: #212832;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
   font-weight: bold;
 }
 html body .filter .betListWindow .flowBox {
@@ -1831,18 +1831,18 @@ html body .filter .betListWindow .flowBox .content .bettingBox .outerCnt.display
 }
 html body .filter .betListWindow .flowBox .content .bettingBox .outerCnt .smallTitle {
   color: #ffffff;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
   font-weight: bold;
 }
 html body .filter .betListWindow .flowBox .content .bettingBox .outerCnt .num {
   color: #feb300;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
   font-weight: bold;
 }
 html body .filter .betListWindow .flowBox .content .bettingBox .outerCnt .num span {
   color: #ffcc41;
   font-weight: bold;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
   padding-left: 4vw;
 }
 html body .filter .betListWindow .flowBox .content .bettingBox .title {
@@ -1856,7 +1856,7 @@ html body .filter .betListWindow .flowBox .content .bettingBox .title {
 }
 html body .filter .betListWindow .flowBox .content .bettingBox .title p {
   color: #feb300;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
   font-weight: bold;
   display: flex;
   align-items: center;
@@ -1908,7 +1908,7 @@ html body .filter .betListWindow .flowBox .content .bettingBox ul li div p {
   width: 100%;
   color: #feb300;
   font-weight: bold;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
   line-height: 5vw;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -1949,13 +1949,13 @@ html body .filter .betListWindow .lastBox div:nth-of-type(1)::before {
 }
 html body .filter .betListWindow .lastBox div .top {
   color: #feb300;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
   font-weight: bold;
   margin-bottom: 2vw;
 }
 html body .filter .betListWindow .lastBox div .num {
   color: #ffcc41;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
   font-weight: bold;
 }
 html body .filter .goWindow {
@@ -2011,7 +2011,7 @@ html body .filter .goWindow .title {
 }
 html body .filter .goWindow .title p {
   color: #feb300;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
   font-weight: bold;
 }
 html body .filter .goWindow .content {
@@ -2029,7 +2029,7 @@ html body .filter .goWindow .content .text {
 }
 html body .filter .goWindow .content .text p {
   color: #ffffff;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
   font-weight: bold;
 }
 html body .filter .goWindow .content button {
@@ -2045,6 +2045,67 @@ html body .filter .goWindow .content button {
 }
 html body .filter .goWindow .content button:active, html body .filter .goWindow .content button.active {
   background: #ffffff;
+}
+html body .filter .calc {
+  width: 88%;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #25344b;
+  border: solid 1px #feb300;
+  border-radius: 2vw;
+  display: none;
+}
+html body .filter .calc.display {
+  display: block;
+}
+html body .filter .calc .cancelBtn {
+  position: absolute;
+  top: -10vw;
+  right: -2vw;
+  width: 7vw;
+  height: 7vw;
+  border-radius: 50%;
+  border: solid 1px #feb300;
+  background: #25344b;
+}
+html body .filter .calc .cancelBtn::before, html body .filter .calc .cancelBtn::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 52%;
+  width: 0.5vw;
+  height: 4vw;
+  background: #feb300;
+  border-radius: 1vw;
+}
+html body .filter .calc .cancelBtn::before {
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+html body .filter .calc .cancelBtn::after {
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+html body .filter .calc .title {
+  width: 100%;
+  height: 10vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border-radius: 2vw 2vw 0 0;
+  border-bottom: solid 1px #5c6d79;
+}
+html body .filter .calc .title p {
+  color: #feb300;
+  font-size: 3.7vw;
+  font-weight: bold;
+}
+html body .filter .calc .content {
+  width: 96%;
+  height: auto;
+  margin: 2% auto;
 }
 html body .chartWrap {
   width: 100%;
@@ -2155,7 +2216,7 @@ html body .chartWrap .listBox ul li table tr td p {
   width: 100%;
   text-align: center;
   color: #ffcc41;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
   font-weight: bold;
 }
 html body .chartWrap .listBox ul li table tr th p span,
@@ -2356,7 +2417,7 @@ html body .mainWrap .typeBox .gameWrap .ready .titleTime {
   display: flex;
   align-items: center;
   padding: 0 2vw;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
   color: #4eff1f;
   border-top: solid 1px #4eff1f;
 }
@@ -2493,7 +2554,7 @@ html body .mainWrap .typeBox .gameWrap .ready .gameBox .content .team {
 }
 html body .mainWrap .typeBox .gameWrap .ing .gameBox .content .team p,
 html body .mainWrap .typeBox .gameWrap .ready .gameBox .content .team p {
-  font-size: 3.4vw;
+  font-size: 3.7vw;
   font-weight: bold;
   color: #ffffff;
   display: flex;
@@ -2526,11 +2587,11 @@ html body .mainWrap .typeBox .gameWrap .ready .gameBox .content .btnBox {
 html body .mainWrap .typeBox .gameWrap .ing .gameBox .content .btnBox button,
 html body .mainWrap .typeBox .gameWrap .ready .gameBox .content .btnBox button {
   width: 33%;
-  height: 8.5vw;
+  height: 9.5vw;
   background: #fffccf;
   border-radius: 1vw;
   color: #be4008;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
   font-weight: bold;
 }
 html body .mainWrap .typeBox .gameWrap .ing .gameBox .content .btnBox button:active, html body .mainWrap .typeBox .gameWrap .ing .gameBox .content .btnBox button.active,
@@ -2562,7 +2623,7 @@ html body .mainWrap .typeBox .gameWrap .ready .gameBox .content .btnBox button {
   background: #5c6d79;
   border-radius: 1vw;
   color: #feb300;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
   font-weight: bold;
 }
 html body .mainWrap .typeBox .gameWrap .ready .gameBox .content .btnBox button:active, html body .mainWrap .typeBox .gameWrap .ready .gameBox .content .btnBox button.active {
@@ -2707,7 +2768,7 @@ html body .mainWrap .emptyBox .emptyImg {
 html body .mainWrap .emptyBox p {
   color: #97a0ad;
   font-weight: bold;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
 }
 html body .mainWrap .multiWrap {
   width: 100%;
@@ -2761,7 +2822,7 @@ html body .mainWrap .multiWrap .title .num {
   justify-content: center;
   color: #ffffff;
   font-weight: bold;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
   margin-right: 2vw;
 }
 html body .mainWrap .multiWrap .title .name {
@@ -2778,7 +2839,7 @@ html body .mainWrap .multiWrap .title .calcBtn {
 }
 html body .mainWrap .multiWrap .title .money {
   color: #212832;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
   font-weight: bold;
 }
 html body .mainWrap .multiWrap .title .money span {
@@ -2843,7 +2904,7 @@ html body .mainWrap .multiWrap .detailWindow .box .textBox {
 html body .mainWrap .multiWrap .detailWindow .box .textBox .first {
   color: #feb300;
   font-weight: bold;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
   margin-bottom: 1vw;
 }
 html body .mainWrap .multiWrap .detailWindow .box .textBox .first span {
@@ -2858,13 +2919,13 @@ html body .mainWrap .multiWrap .detailWindow .box .textBox .type {
 html body .mainWrap .multiWrap .detailWindow .box .textBox .league {
   color: #ffcc41;
   font-weight: bold;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
   margin-bottom: 1vw;
 }
 html body .mainWrap .multiWrap .detailWindow .box .textBox .team {
   color: #ffcc41;
   font-weight: bold;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
 }
 html body .mainWrap .multiWrap .detailWindow .box .textBox .team span {
   color: #97a0ad;
@@ -2911,7 +2972,7 @@ html body .mainWrap .multiWrap .bottomBox .content .top {
 }
 html body .mainWrap .multiWrap .bottomBox .content .top .num {
   color: #feb300;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
   font-weight: bold;
 }
 html body .mainWrap .multiWrap .bottomBox .content .top .num span {
@@ -2943,7 +3004,7 @@ html body .mainWrap .multiWrap .bottomBox .content .top .inputBox p {
   transform: translateY(-50%);
   color: #ffffff;
   font-weight: bold;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
 }
 html body .mainWrap .multiWrap .bottomBox .content .btnBox {
   width: 100%;
@@ -2959,7 +3020,7 @@ html body .mainWrap .multiWrap .bottomBox .content .btnBox button {
   border-radius: 1vw;
   color: #ffffff;
   font-weight: bold;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
   margin-bottom: 0.8vw;
 }
 html body .mainWrap .multiWrap .bottomBox .content .btnBox button:active, html body .mainWrap .multiWrap .bottomBox .content .btnBox button.active {
@@ -2986,7 +3047,7 @@ html body .mainWrap .multiWrap .bottomBox .content .infoBox ul li {
 html body .mainWrap .multiWrap .bottomBox .content .infoBox ul li .kind {
   width: 50%;
   color: #feb300;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
   font-weight: bold;
   border-right: solid 1px #feb300;
   margin-bottom: 3vw;
@@ -2994,7 +3055,7 @@ html body .mainWrap .multiWrap .bottomBox .content .infoBox ul li .kind {
 html body .mainWrap .multiWrap .bottomBox .content .infoBox ul li .num {
   width: 50%;
   color: #ffffff;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
   font-weight: bold;
   text-align: right;
 }
@@ -3026,7 +3087,7 @@ html body .mainWrap .multiWrap .bottomBox .content .finishTitle i::before {
 }
 html body .mainWrap .multiWrap .bottomBox .content .finishTitle p {
   color: #4eff1f;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
   font-weight: bold;
   margin-left: 2vw;
 }
@@ -3048,7 +3109,7 @@ html body .mainWrap .multiWrap .bottomBox .content .finishInfo ul li {
 }
 html body .mainWrap .multiWrap .bottomBox .content .finishInfo ul li p {
   color: #ffffff;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
   font-weight: bold;
 }
 html body .mainWrap .multiWrap .bottomBox .content .finishInfo ul li p.name {
@@ -3078,7 +3139,7 @@ html body .mainWrap .multiWrap .bottomBox .content .moneyBox ul li:last-child {
 }
 html body .mainWrap .multiWrap .bottomBox .content .moneyBox ul li p {
   color: #ffffff;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
   font-weight: bold;
 }
 html body .mainWrap .multiWrap .bottomBox .content .moneyBox ul li p.name {
@@ -3257,7 +3318,7 @@ html body .searchWrap .leagueList ul li .name {
 }
 html body .searchWrap .leagueList ul li .check {
   color: #ffcc41;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
   display: flex;
   align-items: center;
   font-weight: bold;
@@ -3335,7 +3396,7 @@ html body .innerWrap .top .leave {
 html body .innerWrap .top .leave p {
   color: #ffffff;
   font-weight: bold;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
   letter-spacing: 1px;
 }
 html body .innerWrap .top .leave i {
@@ -3363,7 +3424,7 @@ html body .innerWrap .top .infoBox .score {
 html body .innerWrap .top .infoBox .team {
   color: #feb300;
   font-weight: bold;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
   margin-bottom: 2vw;
 }
 html body .innerWrap .top .infoBox .team span {
@@ -3408,7 +3469,7 @@ html body .innerWrap .top .updateBtn {
   bottom: 2vw;
   color: #ffffff;
   font-weight: bold;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
 }
 html body .innerWrap .top .updateBtn i {
   width: 5vw;
@@ -3484,7 +3545,7 @@ html body .innerWrap .top .teamName .time {
 html body .innerWrap .top .teamName .time p {
   color: #212832;
   font-weight: bold;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
 }
 html body .innerWrap .top .teamName .team {
   display: flex;
@@ -3496,11 +3557,11 @@ html body .innerWrap .top .teamName .team {
 html body .innerWrap .top .teamName .team .name {
   color: #ffffff;
   font-weight: bold;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
 }
 html body .innerWrap .top .teamName .team span {
   color: #ffcc41;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
   font-weight: bold;
   margin: 0 3vw;
 }
@@ -3535,7 +3596,7 @@ html body .innerWrap .innerBetList ul li:active, html body .innerWrap .innerBetL
 }
 html body .innerWrap .innerBetList ul li p {
   color: #feb300;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
   font-weight: bold;
 }
 html body .innerWrap .bottom {
@@ -3556,7 +3617,7 @@ html body .innerWrap .bottom ul li {
 }
 html body .innerWrap .bottom ul li .title {
   color: #ffffff;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
   font-weight: bold;
   padding-left: 1vw;
   border-left: solid 2px #feb300;
@@ -3573,7 +3634,7 @@ html body .innerWrap .bottom ul li .smallTitle {
 html body .innerWrap .bottom ul li .smallTitle span {
   width: 34%;
   color: #ffffff;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
   font-weight: bold;
   text-align: center;
 }
@@ -3590,7 +3651,7 @@ html body .innerWrap .bottom ul li .btnBox button {
   align-items: center;
   padding: 1vw 3vw 1vw 1vw;
   color: #feb300;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
   font-weight: bold;
   background: #5c6d79;
   border-radius: 1vw;
@@ -3631,7 +3692,7 @@ html body .innerWrap .bottom ul li .btnBox button i.cus {
   background: #0095e2;
 }
 html body .innerWrap .bottom ul li .btnBox button span {
-  font-size: 3.4vw;
+  font-size: 3.7vw;
   font-weight: bold;
 }
 html body .teachWrap {
@@ -3704,7 +3765,7 @@ html body .teachWrap .type ul li {
   align-items: center;
   justify-content: center;
   border-bottom: solid 2px transparent;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
   font-weight: bold;
 }
 html body .teachWrap .type ul li:active, html body .teachWrap .type ul li.active {
@@ -3738,7 +3799,7 @@ html body .teachWrap .teachBox .teachType .box .title {
   border-bottom: solid 1px #5c6d79;
   color: #feb300;
   position: relative;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
   font-weight: bold;
 }
 html body .teachWrap .teachBox .teachType .box .title::before {
@@ -3982,7 +4043,7 @@ html body .resultWrap .resultType .resultBox .title {
   align-items: center;
   padding-left: 3vw;
   color: #feb300;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
   font-weight: bold;
   background: #455c80;
 }
@@ -4020,7 +4081,7 @@ html body .resultWrap .resultType .resultBox table tr th p {
   text-align: center;
   color: #feb300;
   font-weight: bold;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
 }
 html body .resultWrap .resultType .resultBox table tr td {
   height: 6.5vw;
@@ -4112,7 +4173,7 @@ html body .recordWrap .content .emptyBox div {
 html body .recordWrap .content .emptyBox p {
   color: #97a0ad;
   font-weight: bold;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
 }
 html body .recordWrap .content .emptyBox a {
   width: 50vw;
@@ -4178,18 +4239,18 @@ html body .recordWrap .content .nowBetting .bettingBox .outerCnt.display {
 }
 html body .recordWrap .content .nowBetting .bettingBox .outerCnt .smallTitle {
   color: #ffffff;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
   font-weight: bold;
 }
 html body .recordWrap .content .nowBetting .bettingBox .outerCnt .num {
   color: #feb300;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
   font-weight: bold;
 }
 html body .recordWrap .content .nowBetting .bettingBox .outerCnt .num span {
   color: #ffcc41;
   font-weight: bold;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
   padding-left: 4vw;
 }
 html body .recordWrap .content .nowBetting .bettingBox .title {
@@ -4203,7 +4264,7 @@ html body .recordWrap .content .nowBetting .bettingBox .title {
 }
 html body .recordWrap .content .nowBetting .bettingBox .title p {
   color: #feb300;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
   font-weight: bold;
   display: flex;
   align-items: center;
@@ -4255,7 +4316,7 @@ html body .recordWrap .content .nowBetting .bettingBox ul li div p {
   width: 100%;
   color: #feb300;
   font-weight: bold;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
   line-height: 5vw;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -4319,7 +4380,7 @@ html body .recordWrap .content .historyBetting .topName p {
   text-align: center;
   color: #97a0ad;
   font-weight: bold;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
 }
 html body .recordWrap .content .historyBetting .topName p:nth-of-type(1) {
   width: 33%;
@@ -4374,13 +4435,13 @@ html body .recordWrap .content .historyBetting .listWrap .bettingBox .bigTitle .
 html body .recordWrap .content .historyBetting .listWrap .bettingBox .bigTitle .num span {
   color: #212832;
   font-weight: bold;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
 }
 html body .recordWrap .content .historyBetting .listWrap .bettingBox .bigTitle p {
   text-align: center;
   color: #feb300;
   font-weight: bold;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
 }
 html body .recordWrap .content .historyBetting .listWrap .bettingBox .bigTitle p.win {
   color: #34ff25;
@@ -4435,18 +4496,18 @@ html body .recordWrap .content .historyBetting .listWrap .bettingBox .box .outer
 }
 html body .recordWrap .content .historyBetting .listWrap .bettingBox .box .outerCnt .smallTitle {
   color: #ffffff;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
   font-weight: bold;
 }
 html body .recordWrap .content .historyBetting .listWrap .bettingBox .box .outerCnt .num {
   color: #feb300;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
   font-weight: bold;
 }
 html body .recordWrap .content .historyBetting .listWrap .bettingBox .box .outerCnt .num span {
   color: #ffcc41;
   font-weight: bold;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
   padding-left: 4vw;
 }
 html body .recordWrap .content .historyBetting .listWrap .bettingBox .box .title {
@@ -4460,7 +4521,7 @@ html body .recordWrap .content .historyBetting .listWrap .bettingBox .box .title
 }
 html body .recordWrap .content .historyBetting .listWrap .bettingBox .box .title p {
   color: #feb300;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
   font-weight: bold;
   display: flex;
   align-items: center;
@@ -4512,7 +4573,7 @@ html body .recordWrap .content .historyBetting .listWrap .bettingBox .box ul li 
   width: 100%;
   color: #feb300;
   font-weight: bold;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
   line-height: 5vw;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -4574,13 +4635,13 @@ html body .recordWrap .resultBox .box:nth-of-type(1)::before {
 html body .recordWrap .resultBox .box .title {
   color: #feb300;
   font-size: 3.7vw;
-  font-weight: 100;
+  font-weight: bold;
   margin-bottom: 2vw;
 }
 html body .recordWrap .resultBox .box .num {
   color: #ffcc41;
   font-weight: bold;
-  font-size: 3.4vw;
+  font-size: 4.5vw;
 }
 html body .recordWrap .resultBox .box .num.win {
   color: #34ff25;
@@ -4695,7 +4756,7 @@ html body .memberWrap .top .btnBox ul li a i.control_ic {
 }
 html body .memberWrap .top .btnBox ul li a p {
   color: #feb300;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
   font-weight: bold;
 }
 html body .memberWrap .bottom {
@@ -4849,7 +4910,7 @@ html body .infoWrap .content ul li .title {
 }
 html body .infoWrap .content ul li .title p {
   color: #feb300;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
   font-weight: bold;
 }
 html body .infoWrap .content ul li .sticker {
@@ -4870,7 +4931,7 @@ html body .infoWrap .content ul li .sticker div i {
 }
 html body .infoWrap .content ul li p {
   color: #ffffff;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
   font-weight: bold;
 }
 html body .infoWrap .content ul li p.remind {
@@ -4889,7 +4950,7 @@ html body .infoWrap .content ul li input {
   font-size: 3.7vw;
   font-weight: bold;
   padding-left: 4vw;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
 }
 html body .infoWrap .content ul li input::placeholder {
   color: #a8b0be;
@@ -4911,7 +4972,7 @@ html body .infoWrap .content ul li select {
   background-repeat: no-repeat;
   -webkit-appearance: none;
           appearance: none;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
 }
 html body .infoWrap .content ul li .changeBtn {
   width: 15vw;
@@ -5001,7 +5062,7 @@ html body .postWrap .postList ul li:active, html body .postWrap .postList ul li.
 }
 html body .postWrap .postList ul li p {
   color: #feb300;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
   font-weight: bold;
 }
 html body .postWrap .postCnt {
@@ -5048,7 +5109,7 @@ html body .postWrap .postCnt ul li .textBox .time {
 }
 html body .postWrap .postCnt ul li .textBox .cnt {
   color: #feb300;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
   font-weight: bold;
   line-height: 4.5vw;
   letter-spacing: 1px;
@@ -5070,7 +5131,7 @@ html body .controlWrap .content .rowBox {
   margin-bottom: 1.5vw;
 }
 html body .controlWrap .content .rowBox .title {
-  font-size: 3.4vw;
+  font-size: 3.7vw;
   font-weight: bold;
   color: #feb300;
   margin-bottom: 1vw;
@@ -5129,7 +5190,7 @@ html body .controlWrap .content .spRow {
   margin-top: 4vw;
 }
 html body .controlWrap .content .spRow .title {
-  font-size: 3.4vw;
+  font-size: 3.7vw;
   font-weight: bold;
   color: #feb300;
   margin-bottom: 1vw;
@@ -5274,7 +5335,7 @@ html body .passwordWrap .content ul li {
 }
 html body .passwordWrap .content ul li .title {
   color: #feb300;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
   font-weight: bold;
   margin-bottom: 2vw;
 }
@@ -5348,7 +5409,7 @@ html body .serviceWrap .nameBox .info {
 }
 html body .serviceWrap .nameBox .info .title {
   color: #feb300;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
   font-weight: bold;
   margin-bottom: 2vw;
 }
@@ -5358,7 +5419,7 @@ html body .serviceWrap .nameBox .info .title span {
 html body .serviceWrap .nameBox .info p {
   color: #97a0ad;
   font-weight: bold;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
 }
 html body .serviceWrap .linkBox {
   width: 100%;
@@ -5408,7 +5469,7 @@ html body .serviceWrap .linkBox .info .remind {
 html body .serviceWrap .linkBox .info .text {
   color: #ffffff;
   font-weight: bold;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
 }
 html body .optionWrap {
   position: fixed;
@@ -5492,7 +5553,7 @@ html body .optionWrap .content .top div:nth-of-type(1) .title {
 }
 html body .optionWrap .content .top div .title {
   color: #feb300;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
   font-weight: bold;
 }
 html body .optionWrap .content .top div select {
@@ -5527,7 +5588,7 @@ html body .optionWrap .content .bottom textarea {
   margin-bottom: 3vw;
   background: none;
   color: #ffffff;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
   font-weight: bold;
   resize: none;
 }
@@ -5646,7 +5707,7 @@ html body .mineOptionWrap .content ul li .title {
 html body .mineOptionWrap .content ul li .title .name {
   color: #feb300;
   font-weight: bold;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
 }
 html body .mineOptionWrap .content ul li .title .name span {
   width: auto;
@@ -5675,14 +5736,14 @@ html body .mineOptionWrap .content ul li .box {
 }
 html body .mineOptionWrap .content ul li .box .name {
   color: #feb300;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
   font-weight: bold;
   line-height: 4vw;
 }
 html body .mineOptionWrap .content ul li .box .text {
   color: #ffffff;
   font-weight: bold;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
   margin-top: 3vw;
   line-height: 4vw;
 }
@@ -5766,7 +5827,7 @@ html body .amountWrap .listBox ul li table tr td p {
   width: 100%;
   text-align: center;
   color: #ffcc41;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
   font-weight: bold;
 }
 html body .amountWrap .listBox ul li table tr th p span,
@@ -5875,7 +5936,7 @@ html body .ruleWrap .listBox ul li table tr td p {
   width: 100%;
   text-align: center;
   color: #ffcc41;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
   font-weight: bold;
 }
 html body .ruleWrap .listBox ul li table tr th p span,
@@ -5927,7 +5988,7 @@ html body .depositWrap .bottom .title {
   width: 100%;
   height: 8vw;
   color: #feb300;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
   font-weight: bold;
   display: flex;
   align-items: center;
@@ -6083,7 +6144,7 @@ html body .depositWrap .bottom .btnBox button {
   border-radius: 1vw;
   color: #ffffff;
   font-weight: bold;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
 }
 html body .depositWrap .top .btnBox button:active, html body .depositWrap .top .btnBox button.active,
 html body .depositWrap .bottom .btnBox button:active,
@@ -6205,7 +6266,7 @@ html body .transferWrap .top .box ul li div:last-child {
 }
 html body .transferWrap .top .box ul li div .smallTitle {
   color: #feb300;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
   font-weight: bold;
   display: flex;
   align-items: center;
@@ -6270,7 +6331,7 @@ html body .transferWrap .bottom ul li:last-child {
 }
 html body .transferWrap .bottom ul li .title {
   color: #feb300;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
   font-weight: bold;
   margin-bottom: 3vw;
 }
@@ -6359,7 +6420,7 @@ html body .transferWrap .bottom ul li .inputBox input::placeholder {
 }
 html body .transferWrap .bottom ul li .inputBox p {
   color: #ffffff;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
   font-weight: bold;
   position: absolute;
   top: 50%;
@@ -6407,13 +6468,13 @@ html body .withdrawalWrap .top ul li:last-child {
 }
 html body .withdrawalWrap .top ul li .title {
   color: #feb300;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
   font-weight: bold;
   margin-bottom: 2vw;
 }
 html body .withdrawalWrap .top ul li .num {
   color: #ffffff;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
   font-weight: bold;
 }
 html body .withdrawalWrap .top ul li input {
@@ -6449,7 +6510,7 @@ html body .withdrawalWrap .remind {
   text-align: center;
   margin-bottom: 4vw;
   color: #ff8207;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
   font-weight: bold;
 }
 html body .withdrawalWrap .remindBox {
@@ -6465,11 +6526,11 @@ html body .withdrawalWrap .remindBox .title {
   color: #feb300;
   margin-bottom: 3vw;
   font-weight: bold;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
 }
 html body .withdrawalWrap .remindBox p:not(.title) {
   color: #97a0ad;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
   font-weight: bold;
   line-height: 4vw;
 }
@@ -6527,7 +6588,7 @@ html body .cardWrap .cardList .card .plusBtn {
   margin-bottom: 4vw;
 }
 html body .cardWrap .cardList .card p {
-  font-size: 3.4vw;
+  font-size: 3.7vw;
   font-weight: bold;
 }
 html body .cardWrap .cardList .card p.title {
@@ -6551,7 +6612,7 @@ html body .cardWrap .cardList .card .ready {
   justify-content: flex-end;
 }
 html body .cardWrap .cardList .card .ready p {
-  font-size: 3.4vw;
+  font-size: 3.7vw;
   font-weight: bold;
   padding-right: 2vw;
 }
@@ -6579,7 +6640,7 @@ html body .cardWrap .bottom ul li:last-child {
 }
 html body .cardWrap .bottom ul li .title {
   color: #feb300;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
   font-weight: bold;
   margin-bottom: 2vw;
 }
@@ -6657,7 +6718,7 @@ html body .contactWrap .bottom .title {
   display: flex;
   align-items: center;
   color: #feb300;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
   font-weight: bold;
 }
 html body .contactWrap .top .box,
@@ -6735,13 +6796,13 @@ html body .contactWrap .top .box ul li .right .textBox .smallTitle,
 html body .contactWrap .bottom .box ul li .right .textBox .smallTitle {
   color: #feb300;
   margin-bottom: 2vw;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
   font-weight: bold;
 }
 html body .contactWrap .top .box ul li .right .textBox .cnt,
 html body .contactWrap .bottom .box ul li .right .textBox .cnt {
   color: #ffffff;
-  font-size: 3.4vw;
+  font-size: 3.7vw;
   font-weight: bold;
 }
 html body .contactWrap .top .box ul li .right button,

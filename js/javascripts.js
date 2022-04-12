@@ -271,6 +271,11 @@ $(function(){
 		$(".multiWrap .bottomBox")
 		.toggleClass("display");
 	})
+
+	$(".multiWrap .calcBtn").click(function(){
+		$(".multiWrap")
+		.css("z-index","99");
+	})
 })
 
 //bettingRecord

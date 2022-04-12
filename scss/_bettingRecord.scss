@@ -64,7 +64,7 @@
             p {
                 color: $title_4;
                 font-weight: bold;
-                font-size: 3.4vw;
+                font-size: 3.7vw;
             }
 
             a {
@@ -147,7 +147,7 @@
                     text-align: center;
                     color: $title_4;
                     font-weight: bold;
-                    font-size: 3.4vw;
+                    font-size: 3.7vw;
 
                     &:nth-of-type(1) {
                         width: 33%;
@@ -208,7 +208,7 @@
                             span {
                                 color: $title_5;
                                 font-weight: bold;
-                                font-size: 3.4vw;
+                                font-size: 3.7vw;
                             }
                         }
 
@@ -216,7 +216,7 @@
                             text-align: center;
                             color: $title_1;
                             font-weight: bold;
-                            font-size: 3.4vw;
+                            font-size: 3.7vw;
 
                             &.win {
                                 color: $record_ResultWin;
@@ -337,14 +337,14 @@
             .title {
                 color: $title_1;
                 font-size: 3.7vw;
-                font-weight: 100;
+                font-weight: bold;
                 margin-bottom: 2vw;
             }
 
             .num {
                 color: $title_2;
                 font-weight: bold;
-                font-size: 3.4vw;
+                font-size: 4.5vw;
 
                 &.win {
                     color: $record_ResultWin;
