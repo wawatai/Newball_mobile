@@ -260,21 +260,28 @@ $(function(){
 		$(".multiWrap")
 		.toggleClass("active");
 
-		$(".jumpWindow")
-		.removeClass("display");
+		$(".jumpWindow.calc")
+		.siblings().removeClass("display");
 
 		$(".filter")
 		.toggleClass("display");
 	})
 
+	$(".multiWrap .calcBtn").click(function(){
+		$(".calc")
+		.addClass("display");
+
+		$(".multiWrap")
+		.addClass("active");
+	})
+	$(".calc .cancelBtn").click(function(){
+		$(".calc,.filter")
+		.removeClass("display");
+	})
+
 	$(".multiWrap .bottomBox.unready .checkBtn").click(function(){
 		$(".multiWrap .bottomBox")
 		.toggleClass("display");
-	})
-
-	$(".multiWrap .calcBtn").click(function(){
-		$(".multiWrap")
-		.css("z-index","99");
 	})
 })
 
@@ -314,6 +321,22 @@ $(function(){
 
 		$(this).next(".outerCnt")
 		.toggleClass("display");
+	})
+
+	$(".recordWrap .historyBetting .historyList li").click(function(){
+		$(this)
+		.addClass("active")
+		.siblings().removeClass("active");
+	})
+	$(".recordWrap .historyBetting .historyList li:eq(0)").click(function(){
+		$(".recordWrap .historyBetting .dateBox:eq(0)")
+		.addClass("display")
+		.siblings().removeClass("display");
+	})
+	$(".recordWrap .historyBetting .historyList li:eq(0)").siblings().click(function(){
+		$(".recordWrap .historyBetting .dateBox:eq(0)")
+		.removeClass("display")
+		.siblings().addClass("display");
 	})
 })
 
@@ -436,5 +459,54 @@ $(function(){
 	$(".transferWrap .bottom .row").click(function(){
 		$(this)
 		.toggleClass("active");
+	})
+})
+
+//post
+$(function(){
+	$(".postWrap .postList li").click(function(){
+		$(this)
+		.addClass("active")
+		.siblings().removeClass("active");
+	})
+})
+
+//teach
+$(function(){
+	$(".teachWrap .teachList li").click(function(){
+		$(this)
+		.addClass("active")
+		.siblings().removeClass("active");
+
+		var n = $(this).index();
+		
+		$(".teachWrap .teachBox .teachType:eq("+ n +")")
+		.addClass("display")
+		.siblings().removeClass("display");
+	})
+
+	$(".teachWrap .type li").click(function(){
+		$(this)
+		.addClass("active")
+		.siblings().removeClass("active");
+	})
+	$(".teachWrap .type li:eq(0)").click(function(){
+		$(".teachWrap .teachType .type.p1")
+		.addClass("display")
+		.siblings().removeClass("display");
+	})
+	$(".teachWrap .type li:eq(1)").click(function(){
+		$(".teachWrap .teachType .type.p2")
+		.addClass("display")
+		.siblings().removeClass("display");
+	})
+})
+
+//result
+$(function(){
+	$(".resultWrap .dayList li").click(function(){
+		$(this)
+		.addClass("active")
+		.siblings().removeClass("active");
 	})
 })

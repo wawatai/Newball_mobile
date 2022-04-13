@@ -147,7 +147,7 @@
                     text-align: center;
                     color: $title_4;
                     font-weight: bold;
-                    font-size: 3.7vw;
+                    font-size: 3vw;
 
                     &:nth-of-type(1) {
                         width: 33%;
@@ -167,117 +167,127 @@
                 height: 100%;
                 overflow-y: auto;
                 
-                .bettingBox {
+                .dateBox {
                     width: 100%;
-                    height: 8vw;
-                    overflow: hidden;
-                    margin-bottom: 1vw;
+                    height: 100%;
+                    display: none;
 
-                    &.active {
-                        height: auto;
-                        background: $secondBG_4;
-
-                        .bigTitle {
-                            background: $secondBG_4;
-                        }
-                    }
-                                                           
-                    &:nth-of-type(1) {
-                        margin-top: 1vw;
+                    &.display {
+                        display: block;
                     }
 
-                    .bigTitle {
-                        display: flex;
-                        align-items: center;
-                        background: $record_listBG;
+                    .bettingBox {
                         width: 100%;
                         height: 8vw;
-                        justify-content: space-between;
-
-                        .num {
-                            position: absolute;
-                            left: 3.5vw;
-                            width: 4.5vw;
-                            height: 4.5vw;
-                            background: $mainBG_1;
-                            border-radius: 50%;
+                        overflow: hidden;
+                        margin-bottom: 1vw;
+    
+                        &.active {
+                            height: auto;
+                            background: $secondBG_4;
+    
+                            .bigTitle {
+                                background: $secondBG_4;
+                            }
+                        }
+                                                               
+                        &:nth-of-type(1) {
+                            margin-top: 1vw;
+                        }
+    
+                        .bigTitle {
                             display: flex;
                             align-items: center;
-                            justify-content: center;
-
-                            span {
-                                color: $title_5;
+                            background: $record_listBG;
+                            width: 100%;
+                            height: 8vw;
+                            justify-content: space-between;
+    
+                            .num {
+                                position: absolute;
+                                left: 3.5vw;
+                                width: 4.5vw;
+                                height: 4.5vw;
+                                background: $mainBG_1;
+                                border-radius: 50%;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+    
+                                span {
+                                    color: $title_5;
+                                    font-weight: bold;
+                                    font-size: 3.7vw;
+                                }
+                            }
+    
+                            p {
+                                text-align: center;
+                                color: $title_1;
                                 font-weight: bold;
                                 font-size: 3.7vw;
-                            }
-                        }
-
-                        p {
-                            text-align: center;
-                            color: $title_1;
-                            font-weight: bold;
-                            font-size: 3.7vw;
-
-                            &.win {
-                                color: $record_ResultWin;
-                            }
-
-                            &.lose {
-                                color: $record_ResultLose;
-                            }
-
-                            &:nth-of-type(1) {
-                                width: 33%;
-                                padding-left: 8vw;
-                            }
-                            &:nth-of-type(2) {
-                                width: 40%;
-                            }
-                            &:last-child {
-                                width: 20%;
-                            }
-                        }
-                    }
-
-                    .box {
-                        width: 98%;
-                        @include tableList_3;
-                        height: calc(15vw - 1px);
-                        margin: 0 auto 1vw;
-
-                        .outerCnt {
-
-                            .num {
-
-                                span {
-
-                                    &.win {
-                                        color: $record_ResultWin;
-                                    }
     
-                                    &.lose {
-                                        color: $record_ResultLose;
-                                    }
+                                &.win {
+                                    color: $record_ResultWin;
+                                }
+    
+                                &.lose {
+                                    color: $record_ResultLose;
+                                }
+    
+                                &:nth-of-type(1) {
+                                    width: 33%;
+                                    padding-left: 8vw;
+                                }
+                                &:nth-of-type(2) {
+                                    width: 40%;
+                                }
+                                &:last-child {
+                                    width: 20%;
                                 }
                             }
                         }
-
-                        ul {
-
-                            li {
-
-                                div {
-
-                                    p {
-
-                                        span {
-
-                                            &.win {
-                                                color: $record_ResultWin;
-                                            }
-            
-                                            &.lose {
-                                                color: $record_ResultLose;
+    
+                        .box {
+                            width: 98%;
+                            @include tableList_3;
+                            height: calc(15vw - 1px);
+                            margin: 0 auto 1vw;
+    
+                            .outerCnt {
+    
+                                .num {
+    
+                                    span {
+    
+                                        &.win {
+                                            color: $record_ResultWin;
+                                        }
+        
+                                        &.lose {
+                                            color: $record_ResultLose;
+                                        }
+                                    }
+                                }
+                            }
+    
+                            ul {
+    
+                                li {
+    
+                                    div {
+    
+                                        p {
+    
+                                            span {
+    
+                                                &.win {
+                                                    color: $record_ResultWin;
+                                                }
+                
+                                                &.lose {
+                                                    color: $record_ResultLose;
+                                                }
                                             }
                                         }
                                     }

@@ -827,7 +827,7 @@ html body .mainList .list ul li .title {
   margin-bottom: 1vw;
 }
 html body .mainList .list ul li .num {
-  font-size: 6vw;
+  font-size: 4.3vw;
   font-weight: bold;
   position: relative;
   z-index: 1;
@@ -1908,7 +1908,7 @@ html body .filter .betListWindow .flowBox .content .bettingBox ul li div p {
   width: 100%;
   color: #feb300;
   font-weight: bold;
-  font-size: 3.7vw;
+  font-size: 3.4vw;
   line-height: 5vw;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -2050,7 +2050,7 @@ html body .filter .calc {
   width: 88%;
   height: auto;
   position: absolute;
-  top: 50%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
   background: #25344b;
@@ -2105,7 +2105,174 @@ html body .filter .calc .title p {
 html body .filter .calc .content {
   width: 96%;
   height: auto;
+  border-radius: 2vw;
+  overflow: hidden;
+  border: solid 1px transparent;
   margin: 2% auto;
+  border-color: #5c6d79;
+}
+html body .filter .calc .content.active {
+  height: auto;
+  border-color: #5c6d79;
+}
+html body .filter .calc .content.active .title {
+  background: #feb300;
+  color: #212832;
+}
+html body .filter .calc .content.active .title i {
+  width: 2vw;
+  height: 3vw;
+  transform: rotate(90deg);
+}
+html body .filter .calc .content .title {
+  width: 100%;
+  height: 7.5vw;
+  background: #31425b;
+  padding: 0 3vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #feb300;
+  font-weight: bold;
+  font-size: 3.7vw;
+}
+html body .filter .calc .content .title i {
+  width: 3vw;
+  height: 2vw;
+  transition: 0.3s all;
+}
+html body .filter .calc .content table {
+  width: 100%;
+  height: auto;
+}
+html body .filter .calc .content table tr {
+  background: #25344b;
+}
+html body .filter .calc .content table tr:nth-of-type(even) {
+  background: #31425b;
+}
+html body .filter .calc .content table tr:last-child td {
+  border-bottom: none;
+}
+html body .filter .calc .content table tr th,
+html body .filter .calc .content table tr td {
+  vertical-align: middle;
+  border: solid 1px #5c6d79;
+  border-width: 0 1px 1px 0;
+}
+html body .filter .calc .content table tr th:last-child,
+html body .filter .calc .content table tr td:last-child {
+  border-right: none;
+}
+html body .filter .calc .content table tr th p,
+html body .filter .calc .content table tr td p {
+  width: 100%;
+  text-align: center;
+  color: #ffcc41;
+  font-size: 3.7vw;
+  font-weight: bold;
+}
+html body .filter .calc .content table tr th p span,
+html body .filter .calc .content table tr td p span {
+  color: #ffffff;
+}
+html body .filter .calc .content table tr th {
+  height: 7vw;
+}
+html body .filter .calc .content table tr td {
+  width: 22%;
+  height: 7vw;
+}
+html body .filter .calc .content table tr td:nth-of-type(1) {
+  width: 12%;
+}
+html body .filter .calc .content table tr td:nth-of-type(1) p {
+  color: #feb300;
+}
+html body .filter .calc .content table tr td p {
+  color: #ffffff;
+}
+html body .filter .calc .content table tr th,
+html body .filter .calc .content table tr td {
+  border-right: none;
+}
+html body .filter .calc .content table tr td {
+  height: 8vw;
+  text-align: center;
+  padding: 1vw 0;
+}
+html body .filter .calc .content table tr td input {
+  width: 80%;
+  height: 100%;
+  background: #1b2739;
+  border-radius: 1vw;
+  border: solid 1px #5c6d79;
+  color: #ffffff;
+  font-size: 3.7vw;
+  font-weight: bold;
+  padding-left: 4vw;
+}
+html body .filter .calc .content table tr td input::placeholder {
+  color: #a8b0be;
+}
+html body .filter .calc .content table tr td select {
+  width: 80%;
+  height: 100%;
+  background-color: #1b2739;
+  border-radius: 1vw;
+  border: solid 1px #5c6d79;
+  color: #ffffff;
+  font-size: 3.7vw;
+  font-weight: bold;
+  padding-left: 4vw;
+  background-color: #1b2739;
+  background-image: linear-gradient(45deg, transparent 50%, #feb300 0), linear-gradient(135deg, #feb300 50%, transparent 0);
+  background-position: calc(100% - 4vw) calc(50%), calc(100% - 3vw) calc(54%);
+  background-size: 6px 5px, 5px 6px;
+  background-repeat: no-repeat;
+  -webkit-appearance: none;
+          appearance: none;
+}
+html body .filter .calc .result {
+  width: 100%;
+  height: 9vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 6vw;
+}
+html body .filter .calc .result p {
+  color: #feb300;
+  font-size: 3.7vw;
+  font-weight: bold;
+}
+html body .filter .calc .result input {
+  width: 25vw;
+  height: 7vw;
+  background: #1b2739;
+  border-radius: 1vw;
+  border: solid 1px #5c6d79;
+  color: #ffffff;
+  font-size: 3.7vw;
+  font-weight: bold;
+  padding-left: 4vw;
+}
+html body .filter .calc .result input::placeholder {
+  color: #a8b0be;
+}
+html body .filter .calc .check {
+  width: 96%;
+  height: 11vw;
+  display: block;
+  background: #feb300;
+  color: #212832;
+  font-size: 4vw;
+  font-weight: bold;
+  border-radius: 2vw;
+  margin: 2% auto 5%;
+}
+html body .filter .calc .check:active, html body .filter .calc .check.active {
+  background: #ffffff;
 }
 html body .chartWrap {
   width: 100%;
@@ -2824,23 +2991,30 @@ html body .mainWrap .multiWrap .title .num {
   font-weight: bold;
   font-size: 3.7vw;
   margin-right: 2vw;
+  flex-shrink: 0;
 }
 html body .mainWrap .multiWrap .title .name {
   color: #212832;
   font-size: 3.7vw;
   font-weight: bold;
   letter-spacing: 1px;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 html body .mainWrap .multiWrap .title .calcBtn {
   width: 5vw;
   height: 6vw;
   margin: 0 2vw 0 7vw;
   border-radius: 0.5vw;
+  flex-shrink: 0;
 }
 html body .mainWrap .multiWrap .title .money {
   color: #212832;
   font-size: 3.7vw;
   font-weight: bold;
+  flex-shrink: 0;
 }
 html body .mainWrap .multiWrap .title .money span {
   font-size: 4vw;
@@ -2852,6 +3026,7 @@ html body .mainWrap .multiWrap .title i {
   height: 4vw;
   margin-left: 3vw;
   transition: 0.3s all;
+  flex-shrink: 0;
 }
 html body .mainWrap .multiWrap .detailWindow {
   width: 100%;
@@ -3779,18 +3954,30 @@ html body .teachWrap .teachBox {
 html body .teachWrap .teachBox .teachType {
   width: 100%;
   height: auto;
+  display: none;
 }
-html body .teachWrap .teachBox .teachType .box {
+html body .teachWrap .teachBox .teachType.display {
+  display: block;
+}
+html body .teachWrap .teachBox .teachType .type {
+  width: 100%;
+  height: auto;
+  display: none;
+}
+html body .teachWrap .teachBox .teachType .type.display {
+  display: block;
+}
+html body .teachWrap .teachBox .teachType .type .box {
   width: 100%;
   height: auto;
   background: #25344b;
   padding-bottom: 1px;
   margin-bottom: 1vw;
 }
-html body .teachWrap .teachBox .teachType .box:last-child {
+html body .teachWrap .teachBox .teachType .type .box:last-child {
   margin-bottom: 5vw;
 }
-html body .teachWrap .teachBox .teachType .box .title {
+html body .teachWrap .teachBox .teachType .type .box .title {
   width: 100%;
   height: 6vw;
   display: flex;
@@ -3799,10 +3986,10 @@ html body .teachWrap .teachBox .teachType .box .title {
   border-bottom: solid 1px #5c6d79;
   color: #feb300;
   position: relative;
-  font-size: 3.7vw;
+  font-size: 3vw;
   font-weight: bold;
 }
-html body .teachWrap .teachBox .teachType .box .title::before {
+html body .teachWrap .teachBox .teachType .type .box .title::before {
   content: "";
   position: absolute;
   width: 0.5vw;
@@ -3810,7 +3997,7 @@ html body .teachWrap .teachBox .teachType .box .title::before {
   background: #feb300;
   left: 2vw;
 }
-html body .teachWrap .teachBox .teachType .box .nameBox {
+html body .teachWrap .teachBox .teachType .type .box .nameBox {
   width: 100%;
   height: auto;
   display: flex;
@@ -3818,36 +4005,36 @@ html body .teachWrap .teachBox .teachType .box .nameBox {
   justify-content: center;
   margin: 2vw 0 3vw;
 }
-html body .teachWrap .teachBox .teachType .box .nameBox .left,
-html body .teachWrap .teachBox .teachType .box .nameBox .right {
-  width: 27vw;
+html body .teachWrap .teachBox .teachType .type .box .nameBox .left,
+html body .teachWrap .teachBox .teachType .type .box .nameBox .right {
+  width: 30vw;
   height: auto;
 }
-html body .teachWrap .teachBox .teachType .box .nameBox .left .name,
-html body .teachWrap .teachBox .teachType .box .nameBox .right .name {
+html body .teachWrap .teachBox .teachType .type .box .nameBox .left .name,
+html body .teachWrap .teachBox .teachType .type .box .nameBox .right .name {
   color: #feb300;
   font-size: 3vw;
   font-weight: bold;
   margin-bottom: 1.5vw;
   line-height: 4vw;
 }
-html body .teachWrap .teachBox .teachType .box .nameBox .left .score,
-html body .teachWrap .teachBox .teachType .box .nameBox .right .score {
+html body .teachWrap .teachBox .teachType .type .box .nameBox .left .score,
+html body .teachWrap .teachBox .teachType .type .box .nameBox .right .score {
   color: #ffcc41;
   font-size: 3vw;
   font-weight: bold;
   margin-bottom: 1.5vw;
 }
-html body .teachWrap .teachBox .teachType .box .nameBox .left .bet,
-html body .teachWrap .teachBox .teachType .box .nameBox .right .bet {
+html body .teachWrap .teachBox .teachType .type .box .nameBox .left .bet,
+html body .teachWrap .teachBox .teachType .type .box .nameBox .right .bet {
   color: #ffffff;
   font-size: 3vw;
   font-weight: bold;
 }
-html body .teachWrap .teachBox .teachType .box .nameBox .left {
+html body .teachWrap .teachBox .teachType .type .box .nameBox .left {
   text-align: right;
 }
-html body .teachWrap .teachBox .teachType .box .nameBox .mid {
+html body .teachWrap .teachBox .teachType .type .box .nameBox .mid {
   width: auto;
   height: auto;
   display: flex;
@@ -3857,15 +4044,15 @@ html body .teachWrap .teachBox .teachType .box .nameBox .mid {
   font-size: 5vw;
   font-weight: bold;
 }
-html body .teachWrap .teachBox .teachType .box .nameBox .mid i {
+html body .teachWrap .teachBox .teachType .type .box .nameBox .mid i {
   width: 9.5vw;
   height: 7vw;
   margin: 0 4vw;
 }
-html body .teachWrap .teachBox .teachType .box .nameBox .mid i.rightTeam_ic {
+html body .teachWrap .teachBox .teachType .type .box .nameBox .mid i.rightTeam_ic {
   background-position-x: 100%;
 }
-html body .teachWrap .teachBox .teachType .box .remind {
+html body .teachWrap .teachBox .teachType .type .box .remind {
   width: 100%;
   height: auto;
   color: #ff8207;
@@ -3874,7 +4061,7 @@ html body .teachWrap .teachBox .teachType .box .remind {
   text-align: center;
   margin-bottom: 4vw;
 }
-html body .teachWrap .teachBox .teachType .box .resultBox {
+html body .teachWrap .teachBox .teachType .type .box .resultBox {
   width: 98%;
   height: 18vw;
   margin: 0 auto;
@@ -3885,7 +4072,7 @@ html body .teachWrap .teachBox .teachType .box .resultBox {
   justify-content: center;
   align-items: center;
 }
-html body .teachWrap .teachBox .teachType .box .resultBox .textBox {
+html body .teachWrap .teachBox .teachType .type .box .resultBox .textBox {
   width: 37vw;
   height: 100%;
   display: flex;
@@ -3893,21 +4080,21 @@ html body .teachWrap .teachBox .teachType .box .resultBox .textBox {
   justify-content: center;
   flex-direction: column;
 }
-html body .teachWrap .teachBox .teachType .box .resultBox .textBox .name {
+html body .teachWrap .teachBox .teachType .type .box .resultBox .textBox .name {
   color: #feb300;
   font-weight: bold;
   font-size: 3vw;
   margin-bottom: 2vw;
 }
-html body .teachWrap .teachBox .teachType .box .resultBox .textBox .result {
+html body .teachWrap .teachBox .teachType .type .box .resultBox .textBox .result {
   color: #ffffff;
   font-weight: bold;
   font-size: 3vw;
 }
-html body .teachWrap .teachBox .teachType .box .resultBox .textBox .result.lose {
+html body .teachWrap .teachBox .teachType .type .box .resultBox .textBox .result.lose {
   color: #97a0ad;
 }
-html body .teachWrap .teachBox .teachType .box .resultBox .center {
+html body .teachWrap .teachBox .teachType .type .box .resultBox .center {
   width: 20vw;
   height: 20vw;
   border-radius: 20vw;
@@ -3918,18 +4105,18 @@ html body .teachWrap .teachBox .teachType .box .resultBox .center {
   justify-content: center;
   flex-direction: column;
 }
-html body .teachWrap .teachBox .teachType .box .resultBox .center .name {
+html body .teachWrap .teachBox .teachType .type .box .resultBox .center .name {
   color: #feb300;
   font-weight: bold;
   font-size: 3.7vw;
   margin-bottom: 2vw;
 }
-html body .teachWrap .teachBox .teachType .box .resultBox .center .result {
+html body .teachWrap .teachBox .teachType .type .box .resultBox .center .result {
   color: #ffffff;
   font-weight: bold;
   font-size: 3.7vw;
 }
-html body .teachWrap .teachBox .teachType .box .resultWord {
+html body .teachWrap .teachBox .teachType .type .box .resultWord {
   width: 96%;
   height: auto;
   display: flex;
@@ -3937,16 +4124,16 @@ html body .teachWrap .teachBox .teachType .box .resultWord {
   justify-content: space-between;
   margin: 4vw auto;
 }
-html body .teachWrap .teachBox .teachType .box .resultWord div {
+html body .teachWrap .teachBox .teachType .type .box .resultWord div {
   width: 47%;
 }
-html body .teachWrap .teachBox .teachType .box .resultWord div.lose p {
+html body .teachWrap .teachBox .teachType .type .box .resultWord div.lose p {
   color: #97a0ad;
 }
-html body .teachWrap .teachBox .teachType .box .resultWord div.left {
+html body .teachWrap .teachBox .teachType .type .box .resultWord div.left {
   text-align: right;
 }
-html body .teachWrap .teachBox .teachType .box .resultWord div p {
+html body .teachWrap .teachBox .teachType .type .box .resultWord div p {
   color: #ff8207;
   font-weight: bold;
   font-size: 3vw;
@@ -4316,7 +4503,7 @@ html body .recordWrap .content .nowBetting .bettingBox ul li div p {
   width: 100%;
   color: #feb300;
   font-weight: bold;
-  font-size: 3.7vw;
+  font-size: 3.4vw;
   line-height: 5vw;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -4380,7 +4567,7 @@ html body .recordWrap .content .historyBetting .topName p {
   text-align: center;
   color: #97a0ad;
   font-weight: bold;
-  font-size: 3.7vw;
+  font-size: 3vw;
 }
 html body .recordWrap .content .historyBetting .topName p:nth-of-type(1) {
   width: 33%;
@@ -4397,23 +4584,31 @@ html body .recordWrap .content .historyBetting .listWrap {
   height: 100%;
   overflow-y: auto;
 }
-html body .recordWrap .content .historyBetting .listWrap .bettingBox {
+html body .recordWrap .content .historyBetting .listWrap .dateBox {
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+html body .recordWrap .content .historyBetting .listWrap .dateBox.display {
+  display: block;
+}
+html body .recordWrap .content .historyBetting .listWrap .dateBox .bettingBox {
   width: 100%;
   height: 8vw;
   overflow: hidden;
   margin-bottom: 1vw;
 }
-html body .recordWrap .content .historyBetting .listWrap .bettingBox.active {
+html body .recordWrap .content .historyBetting .listWrap .dateBox .bettingBox.active {
   height: auto;
   background: #44608a;
 }
-html body .recordWrap .content .historyBetting .listWrap .bettingBox.active .bigTitle {
+html body .recordWrap .content .historyBetting .listWrap .dateBox .bettingBox.active .bigTitle {
   background: #44608a;
 }
-html body .recordWrap .content .historyBetting .listWrap .bettingBox:nth-of-type(1) {
+html body .recordWrap .content .historyBetting .listWrap .dateBox .bettingBox:nth-of-type(1) {
   margin-top: 1vw;
 }
-html body .recordWrap .content .historyBetting .listWrap .bettingBox .bigTitle {
+html body .recordWrap .content .historyBetting .listWrap .dateBox .bettingBox .bigTitle {
   display: flex;
   align-items: center;
   background: #31425b;
@@ -4421,7 +4616,7 @@ html body .recordWrap .content .historyBetting .listWrap .bettingBox .bigTitle {
   height: 8vw;
   justify-content: space-between;
 }
-html body .recordWrap .content .historyBetting .listWrap .bettingBox .bigTitle .num {
+html body .recordWrap .content .historyBetting .listWrap .dateBox .bettingBox .bigTitle .num {
   position: absolute;
   left: 3.5vw;
   width: 4.5vw;
@@ -4432,34 +4627,34 @@ html body .recordWrap .content .historyBetting .listWrap .bettingBox .bigTitle .
   align-items: center;
   justify-content: center;
 }
-html body .recordWrap .content .historyBetting .listWrap .bettingBox .bigTitle .num span {
+html body .recordWrap .content .historyBetting .listWrap .dateBox .bettingBox .bigTitle .num span {
   color: #212832;
   font-weight: bold;
   font-size: 3.7vw;
 }
-html body .recordWrap .content .historyBetting .listWrap .bettingBox .bigTitle p {
+html body .recordWrap .content .historyBetting .listWrap .dateBox .bettingBox .bigTitle p {
   text-align: center;
   color: #feb300;
   font-weight: bold;
   font-size: 3.7vw;
 }
-html body .recordWrap .content .historyBetting .listWrap .bettingBox .bigTitle p.win {
+html body .recordWrap .content .historyBetting .listWrap .dateBox .bettingBox .bigTitle p.win {
   color: #34ff25;
 }
-html body .recordWrap .content .historyBetting .listWrap .bettingBox .bigTitle p.lose {
+html body .recordWrap .content .historyBetting .listWrap .dateBox .bettingBox .bigTitle p.lose {
   color: #ff5d47;
 }
-html body .recordWrap .content .historyBetting .listWrap .bettingBox .bigTitle p:nth-of-type(1) {
+html body .recordWrap .content .historyBetting .listWrap .dateBox .bettingBox .bigTitle p:nth-of-type(1) {
   width: 33%;
   padding-left: 8vw;
 }
-html body .recordWrap .content .historyBetting .listWrap .bettingBox .bigTitle p:nth-of-type(2) {
+html body .recordWrap .content .historyBetting .listWrap .dateBox .bettingBox .bigTitle p:nth-of-type(2) {
   width: 40%;
 }
-html body .recordWrap .content .historyBetting .listWrap .bettingBox .bigTitle p:last-child {
+html body .recordWrap .content .historyBetting .listWrap .dateBox .bettingBox .bigTitle p:last-child {
   width: 20%;
 }
-html body .recordWrap .content .historyBetting .listWrap .bettingBox .box {
+html body .recordWrap .content .historyBetting .listWrap .dateBox .bettingBox .box {
   width: 98%;
   border: solid 1px #5c6d79;
   height: calc(15vw - 2px);
@@ -4467,21 +4662,21 @@ html body .recordWrap .content .historyBetting .listWrap .bettingBox .box {
   height: calc(15vw - 1px);
   margin: 0 auto 1vw;
 }
-html body .recordWrap .content .historyBetting .listWrap .bettingBox .box.active {
+html body .recordWrap .content .historyBetting .listWrap .dateBox .bettingBox .box.active {
   height: auto;
 }
-html body .recordWrap .content .historyBetting .listWrap .bettingBox .box.active .title {
+html body .recordWrap .content .historyBetting .listWrap .dateBox .bettingBox .box.active .title {
   background: #feb300;
 }
-html body .recordWrap .content .historyBetting .listWrap .bettingBox .box.active .title p {
+html body .recordWrap .content .historyBetting .listWrap .dateBox .bettingBox .box.active .title p {
   color: #212832;
 }
-html body .recordWrap .content .historyBetting .listWrap .bettingBox .box.active .title p i {
+html body .recordWrap .content .historyBetting .listWrap .dateBox .bettingBox .box.active .title p i {
   width: 2vw;
   height: 3.2vw;
   transform: rotate(90deg);
 }
-html body .recordWrap .content .historyBetting .listWrap .bettingBox .box .outerCnt {
+html body .recordWrap .content .historyBetting .listWrap .dateBox .bettingBox .box .outerCnt {
   width: 100%;
   height: 7vw;
   background: #25344a;
@@ -4491,26 +4686,26 @@ html body .recordWrap .content .historyBetting .listWrap .bettingBox .box .outer
   padding: 0 2vw;
   display: none;
 }
-html body .recordWrap .content .historyBetting .listWrap .bettingBox .box .outerCnt.display {
+html body .recordWrap .content .historyBetting .listWrap .dateBox .bettingBox .box .outerCnt.display {
   display: flex;
 }
-html body .recordWrap .content .historyBetting .listWrap .bettingBox .box .outerCnt .smallTitle {
+html body .recordWrap .content .historyBetting .listWrap .dateBox .bettingBox .box .outerCnt .smallTitle {
   color: #ffffff;
   font-size: 3.7vw;
   font-weight: bold;
 }
-html body .recordWrap .content .historyBetting .listWrap .bettingBox .box .outerCnt .num {
+html body .recordWrap .content .historyBetting .listWrap .dateBox .bettingBox .box .outerCnt .num {
   color: #feb300;
   font-size: 3.7vw;
   font-weight: bold;
 }
-html body .recordWrap .content .historyBetting .listWrap .bettingBox .box .outerCnt .num span {
+html body .recordWrap .content .historyBetting .listWrap .dateBox .bettingBox .box .outerCnt .num span {
   color: #ffcc41;
   font-weight: bold;
   font-size: 3.7vw;
   padding-left: 4vw;
 }
-html body .recordWrap .content .historyBetting .listWrap .bettingBox .box .title {
+html body .recordWrap .content .historyBetting .listWrap .dateBox .bettingBox .box .title {
   width: 100%;
   height: 7vw;
   display: flex;
@@ -4519,79 +4714,79 @@ html body .recordWrap .content .historyBetting .listWrap .bettingBox .box .title
   justify-content: space-between;
   background: #212832;
 }
-html body .recordWrap .content .historyBetting .listWrap .bettingBox .box .title p {
+html body .recordWrap .content .historyBetting .listWrap .dateBox .bettingBox .box .title p {
   color: #feb300;
   font-size: 3.7vw;
   font-weight: bold;
   display: flex;
   align-items: center;
 }
-html body .recordWrap .content .historyBetting .listWrap .bettingBox .box .title p i {
+html body .recordWrap .content .historyBetting .listWrap .dateBox .bettingBox .box .title p i {
   width: 3vw;
   height: 2vw;
   margin-left: 3vw;
 }
-html body .recordWrap .content .historyBetting .listWrap .bettingBox .box ul {
+html body .recordWrap .content .historyBetting .listWrap .dateBox .bettingBox .box ul {
   width: 100%;
   height: auto;
   background: #212832;
 }
-html body .recordWrap .content .historyBetting .listWrap .bettingBox .box ul li {
+html body .recordWrap .content .historyBetting .listWrap .dateBox .bettingBox .box ul li {
   display: flex;
 }
-html body .recordWrap .content .historyBetting .listWrap .bettingBox .box ul li:not(:nth-of-type(1)) div:nth-of-type(1), html body .recordWrap .content .historyBetting .listWrap .bettingBox .box ul li:not(:nth-of-type(1)) div:nth-of-type(3) {
+html body .recordWrap .content .historyBetting .listWrap .dateBox .bettingBox .box ul li:not(:nth-of-type(1)) div:nth-of-type(1), html body .recordWrap .content .historyBetting .listWrap .dateBox .bettingBox .box ul li:not(:nth-of-type(1)) div:nth-of-type(3) {
   width: 25%;
   flex-shrink: 0;
 }
-html body .recordWrap .content .historyBetting .listWrap .bettingBox .box ul li:last-child div {
+html body .recordWrap .content .historyBetting .listWrap .dateBox .bettingBox .box ul li:last-child div {
   border-bottom: none;
 }
-html body .recordWrap .content .historyBetting .listWrap .bettingBox .box ul li:last-child div:nth-of-type(3) {
+html body .recordWrap .content .historyBetting .listWrap .dateBox .bettingBox .box ul li:last-child div:nth-of-type(3) {
   width: 33%;
 }
-html body .recordWrap .content .historyBetting .listWrap .bettingBox .box ul li:last-child div:nth-of-type(4) {
+html body .recordWrap .content .historyBetting .listWrap .dateBox .bettingBox .box ul li:last-child div:nth-of-type(4) {
   width: 25%;
   flex-shrink: 0;
 }
-html body .recordWrap .content .historyBetting .listWrap .bettingBox .box ul li div {
+html body .recordWrap .content .historyBetting .listWrap .dateBox .bettingBox .box ul li div {
   width: 100%;
   height: 100%;
   padding: 1.5vw;
   border: solid 1px #5c6d79;
   border-width: 0 1px 1px 0;
 }
-html body .recordWrap .content .historyBetting .listWrap .bettingBox .box ul li div:last-child {
+html body .recordWrap .content .historyBetting .listWrap .dateBox .bettingBox .box ul li div:last-child {
   border-right: none;
 }
-html body .recordWrap .content .historyBetting .listWrap .bettingBox .box ul li div.name {
+html body .recordWrap .content .historyBetting .listWrap .dateBox .bettingBox .box ul li div.name {
   background: #25344a;
 }
-html body .recordWrap .content .historyBetting .listWrap .bettingBox .box ul li div.name p {
+html body .recordWrap .content .historyBetting .listWrap .dateBox .bettingBox .box ul li div.name p {
   text-align: center;
 }
-html body .recordWrap .content .historyBetting .listWrap .bettingBox .box ul li div p {
+html body .recordWrap .content .historyBetting .listWrap .dateBox .bettingBox .box ul li div p {
   width: 100%;
   color: #feb300;
   font-weight: bold;
-  font-size: 3.7vw;
+  font-size: 3.4vw;
   line-height: 5vw;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-html body .recordWrap .content .historyBetting .listWrap .bettingBox .box ul li div p span {
+html body .recordWrap .content .historyBetting .listWrap .dateBox .bettingBox .box ul li div p span {
   color: #ffffff;
 }
-html body .recordWrap .content .historyBetting .listWrap .bettingBox .box .outerCnt .num span.win {
+html body .recordWrap .content .historyBetting .listWrap .dateBox .bettingBox .box .outerCnt .num span.win {
   color: #34ff25;
 }
-html body .recordWrap .content .historyBetting .listWrap .bettingBox .box .outerCnt .num span.lose {
+html body .recordWrap .content .historyBetting .listWrap .dateBox .bettingBox .box .outerCnt .num span.lose {
   color: #ff5d47;
 }
-html body .recordWrap .content .historyBetting .listWrap .bettingBox .box ul li div p span.win {
+html body .recordWrap .content .historyBetting .listWrap .dateBox .bettingBox .box ul li div p span.win {
   color: #34ff25;
 }
-html body .recordWrap .content .historyBetting .listWrap .bettingBox .box ul li div p span.lose {
+html body .recordWrap .content .historyBetting .listWrap .dateBox .bettingBox .box ul li div p span.lose {
   color: #ff5d47;
 }
 html body .recordWrap .resultBox {
@@ -5047,6 +5242,7 @@ html body .postWrap .postList ul {
   height: 8vw;
   display: flex;
   justify-content: space-between;
+  overflow-x: auto;
 }
 html body .postWrap .postList ul li {
   width: auto;
@@ -5056,6 +5252,7 @@ html body .postWrap .postList ul li {
   justify-content: center;
   border-bottom: solid 1px transparent;
   padding: 0 4vw;
+  flex-shrink: 0;
 }
 html body .postWrap .postList ul li:active, html body .postWrap .postList ul li.active {
   border-color: #feb300;
@@ -5967,8 +6164,8 @@ html body .ruleWrap .listBox ul li table tr td:nth-of-type(1) {
 }
 html body .ruleWrap .listBox ul li table tr td p {
   text-align: left;
-  line-height: 4vw;
-  font-size: 3vw;
+  line-height: 4.5vw;
+  font-size: 3.5vw;
 }
 html body .depositWrap {
   width: 100%;

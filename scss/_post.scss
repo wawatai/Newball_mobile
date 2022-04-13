@@ -16,6 +16,7 @@
             height: 8vw;
             display: flex;
             justify-content: space-between;
+            overflow-x: auto;
 
             li {
                 width: auto;
@@ -25,6 +26,7 @@
                 justify-content: center;
                 border-bottom: solid 1px transparent;
                 padding: 0 4vw;
+                flex-shrink: 0;
 
                 &:active,&.active {
                     border-color: $Border_1;
