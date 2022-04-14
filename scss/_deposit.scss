@@ -51,7 +51,16 @@
                         margin-right: 0;
                     }
 
-                    &:active,&.active {
+                    &:active {
+                        border-color: $deposit_Active;
+                        background: $mainBG_3;
+
+                        p {
+                            color: $title_3;
+                        }
+                    }
+
+                    &.active {
                         border-color: $deposit_Active;
                         background: $mainBG_3;
 

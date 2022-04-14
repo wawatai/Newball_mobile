@@ -255,12 +255,44 @@
             }
         }
 
+        .mid {
+            width: 100%;
+            height: auto;
+            padding: 2vw 3.5vw;
+
+            .box {
+                width: 100%;
+                height: 14vw;
+                border-radius: 1vw;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 0 6vw;
+                background: $mainPage_liveLinear;
+
+                .title {
+                    color: $title_5;
+                    font-size: 3.4vw;
+                    font-weight: bold;
+                }
+
+                .num {
+                    color: $title_5;
+                    font-size: 4.5vw;
+                    font-weight: bold;
+
+                    span {
+                        color: $mainPage_Bet;
+                    }
+                }
+            }
+        }
+
         .bottom {
             width: 100%;
             height: auto;
             background: $secondBG_3;
             padding: 0 3.5vw;
-            margin-top: 18vw;
 
             .title {
                 width: 100%;

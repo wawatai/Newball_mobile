@@ -1395,12 +1395,39 @@ html body .filter .betWindow .top .teamBox .second span {
   color: #ffffff;
   margin-left: 2vw;
 }
+html body .filter .betWindow .mid {
+  width: 100%;
+  height: auto;
+  padding: 2vw 3.5vw;
+}
+html body .filter .betWindow .mid .box {
+  width: 100%;
+  height: 14vw;
+  border-radius: 1vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 6vw;
+  background: linear-gradient(to right, #feb300 0%, #fe9b00 100%);
+}
+html body .filter .betWindow .mid .box .title {
+  color: #212832;
+  font-size: 3.4vw;
+  font-weight: bold;
+}
+html body .filter .betWindow .mid .box .num {
+  color: #212832;
+  font-size: 4.5vw;
+  font-weight: bold;
+}
+html body .filter .betWindow .mid .box .num span {
+  color: #ff0909;
+}
 html body .filter .betWindow .bottom {
   width: 100%;
   height: auto;
   background: #3a4f6f;
   padding: 0 3.5vw;
-  margin-top: 18vw;
 }
 html body .filter .betWindow .bottom .title {
   width: 100%;
@@ -6370,14 +6397,21 @@ html body .depositWrap .top .listBox ul li:nth-of-type(4n),
 html body .depositWrap .bottom .listBox ul li:nth-of-type(4n) {
   margin-right: 0;
 }
-html body .depositWrap .top .listBox ul li:active, html body .depositWrap .top .listBox ul li.active,
-html body .depositWrap .bottom .listBox ul li:active,
+html body .depositWrap .top .listBox ul li:active,
+html body .depositWrap .bottom .listBox ul li:active {
+  border-color: #ffffff;
+  background: #25344b;
+}
+html body .depositWrap .top .listBox ul li:active p,
+html body .depositWrap .bottom .listBox ul li:active p {
+  color: #ffffff;
+}
+html body .depositWrap .top .listBox ul li.active,
 html body .depositWrap .bottom .listBox ul li.active {
   border-color: #ffffff;
   background: #25344b;
 }
-html body .depositWrap .top .listBox ul li:active::before, html body .depositWrap .top .listBox ul li.active::before,
-html body .depositWrap .bottom .listBox ul li:active::before,
+html body .depositWrap .top .listBox ul li.active::before,
 html body .depositWrap .bottom .listBox ul li.active::before {
   content: "";
   position: absolute;
@@ -6388,8 +6422,7 @@ html body .depositWrap .bottom .listBox ul li.active::before {
   bottom: -2.5vw;
   background: #ffffff;
 }
-html body .depositWrap .top .listBox ul li:active::after, html body .depositWrap .top .listBox ul li.active::after,
-html body .depositWrap .bottom .listBox ul li:active::after,
+html body .depositWrap .top .listBox ul li.active::after,
 html body .depositWrap .bottom .listBox ul li.active::after {
   content: "";
   position: absolute;
@@ -6398,8 +6431,7 @@ html body .depositWrap .bottom .listBox ul li.active::after {
   right: 0vw;
   bottom: 0vw;
 }
-html body .depositWrap .top .listBox ul li:active p, html body .depositWrap .top .listBox ul li.active p,
-html body .depositWrap .bottom .listBox ul li:active p,
+html body .depositWrap .top .listBox ul li.active p,
 html body .depositWrap .bottom .listBox ul li.active p {
   color: #ffffff;
 }
