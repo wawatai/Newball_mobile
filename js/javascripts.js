@@ -202,10 +202,66 @@ $(function(){
 		.addClass("display");
 	})
 
+	$(".memberWrap .bottom .forBasic").click(function(){
+		$(".jumpWindow")
+		.removeClass("display");
+
+		$(".filter")
+		.css("z-index","101");
+		$("footer")
+		.css("display","none");
+
+		$(".filter,.noviceWindow.basic")
+		.addClass("display");
+	})
+	$(".memberWrap .bottom .forSingle").click(function(){
+		$(".jumpWindow")
+		.removeClass("display");
+
+		$(".filter")
+		.css("z-index","101");
+		$("footer")
+		.css("display","none");
+
+		$(".filter,.noviceWindow.single")
+		.addClass("display");
+	})
+	$(".memberWrap .bottom .forMulti").click(function(){
+		$(".jumpWindow")
+		.removeClass("display");
+
+		$(".filter")
+		.css("z-index","101");
+		$("footer")
+		.css("display","none");
+
+		$(".filter,.noviceWindow.multi")
+		.addClass("display");
+	})
+	$(".memberWrap .bottom .forBet").click(function(){
+		$(".jumpWindow")
+		.removeClass("display");
+
+		$(".filter")
+		.css("z-index","101");
+		$("footer")
+		.css("display","none");
+
+		$(".filter,.noviceWindow.bet")
+		.addClass("display");
+	})
+
 
 	$(".goWindow .cancelBtn,.goWindow .content button").click(function(){
 		$(".filter")
 		.removeClass("display");
+	})
+	$(".noviceWindow .cancelBtn,.noviceWindow .cancel").click(function(){
+		$(".filter")
+		.removeClass("display");
+
+		$("footer")
+		.css("display","block");
 	})
 })
 
@@ -469,6 +525,17 @@ $(function(){
 		.addClass("active")
 		.siblings().removeClass("active");
 	})
+
+	$(".postWrap .postList li:eq(0)").click(function(){
+		$(".postWrap .postCnt .cntBox:eq(0)")
+		.addClass("display")
+		.siblings().removeClass("display");
+	})
+	$(".postWrap .postList li:eq(0)").siblings().click(function(){
+		$(".postWrap .postCnt .cntBox:eq(0)")
+		.removeClass("display")
+		.siblings().addClass("display");
+	})
 })
 
 //teach
@@ -508,5 +575,19 @@ $(function(){
 		$(this)
 		.addClass("active")
 		.siblings().removeClass("active");
+	})
+})
+
+//novice
+$(function(){
+	$(".memberWrap .bottom .noviceBtn").click(function(){
+		$(".memberWrap .bottom")
+		.toggleClass("display");
+	})
+
+	$(".noviceWindow .next").click(function(){
+		$(this).closest("div").next()
+		.addClass("display")
+		.siblings().removeClass("display");
 	})
 })

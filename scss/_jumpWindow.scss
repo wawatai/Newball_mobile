@@ -938,4 +938,235 @@
             margin: 2% auto 5%;
         }
     }
+
+    //新手介紹
+    .noviceWindow {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        display: none;
+
+        &.display {
+            display: flex;
+        }
+
+        &.basic {
+
+            div {
+
+                &:nth-of-type(1),
+                &:nth-of-type(2),
+                &:nth-of-type(4) {
+
+                    .next {
+                        top: 70%;
+                    }
+                }
+
+                &:nth-of-type(3) {
+
+                    .cancelBtn {
+                        left: 2vw;
+                    }
+
+                    .next {
+                        top: 70%;
+                    }
+                }
+
+                &:nth-of-type(4) {
+
+                    .cancel {
+                        top: 40%;
+                    }
+                }
+            }
+        }
+        &.single {
+
+            div {
+
+                &:nth-of-type(1),
+                &:nth-of-type(2),
+                &:nth-of-type(3),
+                &:nth-of-type(7) {
+    
+                    .next {
+                        top: 75%;
+                    }
+                }
+    
+                &:nth-of-type(4),
+                &:nth-of-type(5),
+                &:nth-of-type(6) {
+    
+                    .next {
+                        top: 35%;
+                    }
+                }
+
+                &:nth-of-type(8) {
+
+                    .play {
+                        top: 54%;
+                    }
+
+                    .cancel {
+                        top: 62%;
+                    }
+
+                    .again {
+                        top: 70%;
+                    }
+                }
+            }
+        }
+        &.multi {
+            
+            div {
+
+                &:nth-of-type(1),
+                &:nth-of-type(4),
+                &:nth-of-type(6),
+                &:nth-of-type(8) {
+
+                    .next {
+                        top: 40%;
+                    }
+                }
+
+                &:nth-of-type(2),
+                &:nth-of-type(3),
+                &:nth-of-type(9) {
+
+                    .next {
+                        top: 70%;
+                    }
+                }
+
+                &:nth-of-type(5) {
+
+                    .next {
+                        top: 30%;
+                    }
+                }
+
+                &:nth-of-type(7) {
+
+                    .next {
+                        top: 25%;
+                    }
+                }
+
+                &:nth-of-type(10) {
+
+                    .play {
+                        top: 54%;
+                    }
+
+                    .cancel {
+                        top: 62%;
+                    }
+
+                    .again {
+                        top: 70%;
+                    }
+                }
+            }
+        }
+        &.bet {
+            
+            div {
+
+                &:nth-of-type(1) {
+
+                    .next {
+                        top: 40%;
+                    }
+                }
+
+                &:nth-of-type(2) {
+
+                    .next {
+                        top: 70%;
+                    }
+                }
+
+                &:nth-of-type(3) {
+
+                    .cancel {
+                        top: 70%;
+                    }
+                }
+            }
+        }
+
+        div {
+            width: 100%;
+            height: 100%;
+            position: relative;
+            display: none;
+            overflow-y: auto;
+
+            &.display {
+                display: block;
+            }
+
+            img {
+                width: 100%;
+            }
+
+            .cancelBtn {
+                position: absolute;
+                top: 5vw;
+                right: 2vw;
+                width: 9vw;
+                height: 9vw;
+                border-radius: 50%;
+                border: solid 1px $novice_Border;
+                background: none;
+    
+                &::before,
+                &::after {
+                    content: "";
+                    position: absolute;
+                    top: 50%;
+                    left: 52%;
+                    width: 0.5vw;
+                    height: 5vw;
+                    background: $novice_Border;
+                    border-radius: 1vw;
+                }
+    
+                &::before {
+                    transform: translate(-50%,-50%) rotate(45deg);
+                }
+                &::after {
+                    transform: translate(-50%,-50%) rotate(-45deg);
+                }
+            }
+    
+            button:not(.cancelBtn) {
+                width: 70vw;
+                height: 14vw;
+                color: $title_3;
+                font-size: 4vw;
+                font-weight: bold;
+                position: absolute;
+                left: 50%;
+                transform: translateX(-50%);
+                background: $novice_btnBG;
+                border-radius: 10vw;
+                border: solid 1px $novice_Border;
+
+                &.play {
+                    background: $mainBG_1;
+                    color: $title_5;
+                }
+            }
+        }
+    }
 }

@@ -2274,6 +2274,131 @@ html body .filter .calc .check {
 html body .filter .calc .check:active, html body .filter .calc .check.active {
   background: #ffffff;
 }
+html body .filter .noviceWindow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  display: none;
+}
+html body .filter .noviceWindow.display {
+  display: flex;
+}
+html body .filter .noviceWindow.basic div:nth-of-type(1) .next, html body .filter .noviceWindow.basic div:nth-of-type(2) .next, html body .filter .noviceWindow.basic div:nth-of-type(4) .next {
+  top: 70%;
+}
+html body .filter .noviceWindow.basic div:nth-of-type(3) .cancelBtn {
+  left: 2vw;
+}
+html body .filter .noviceWindow.basic div:nth-of-type(3) .next {
+  top: 70%;
+}
+html body .filter .noviceWindow.basic div:nth-of-type(4) .cancel {
+  top: 40%;
+}
+html body .filter .noviceWindow.single div:nth-of-type(1) .next, html body .filter .noviceWindow.single div:nth-of-type(2) .next, html body .filter .noviceWindow.single div:nth-of-type(3) .next, html body .filter .noviceWindow.single div:nth-of-type(7) .next {
+  top: 75%;
+}
+html body .filter .noviceWindow.single div:nth-of-type(4) .next, html body .filter .noviceWindow.single div:nth-of-type(5) .next, html body .filter .noviceWindow.single div:nth-of-type(6) .next {
+  top: 35%;
+}
+html body .filter .noviceWindow.single div:nth-of-type(8) .play {
+  top: 54%;
+}
+html body .filter .noviceWindow.single div:nth-of-type(8) .cancel {
+  top: 62%;
+}
+html body .filter .noviceWindow.single div:nth-of-type(8) .again {
+  top: 70%;
+}
+html body .filter .noviceWindow.multi div:nth-of-type(1) .next, html body .filter .noviceWindow.multi div:nth-of-type(4) .next, html body .filter .noviceWindow.multi div:nth-of-type(6) .next, html body .filter .noviceWindow.multi div:nth-of-type(8) .next {
+  top: 40%;
+}
+html body .filter .noviceWindow.multi div:nth-of-type(2) .next, html body .filter .noviceWindow.multi div:nth-of-type(3) .next, html body .filter .noviceWindow.multi div:nth-of-type(9) .next {
+  top: 70%;
+}
+html body .filter .noviceWindow.multi div:nth-of-type(5) .next {
+  top: 30%;
+}
+html body .filter .noviceWindow.multi div:nth-of-type(7) .next {
+  top: 25%;
+}
+html body .filter .noviceWindow.multi div:nth-of-type(10) .play {
+  top: 54%;
+}
+html body .filter .noviceWindow.multi div:nth-of-type(10) .cancel {
+  top: 62%;
+}
+html body .filter .noviceWindow.multi div:nth-of-type(10) .again {
+  top: 70%;
+}
+html body .filter .noviceWindow.bet div:nth-of-type(1) .next {
+  top: 40%;
+}
+html body .filter .noviceWindow.bet div:nth-of-type(2) .next {
+  top: 70%;
+}
+html body .filter .noviceWindow.bet div:nth-of-type(3) .cancel {
+  top: 70%;
+}
+html body .filter .noviceWindow div {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: none;
+  overflow-y: auto;
+}
+html body .filter .noviceWindow div.display {
+  display: block;
+}
+html body .filter .noviceWindow div img {
+  width: 100%;
+}
+html body .filter .noviceWindow div .cancelBtn {
+  position: absolute;
+  top: 5vw;
+  right: 2vw;
+  width: 9vw;
+  height: 9vw;
+  border-radius: 50%;
+  border: solid 1px #ffffff;
+  background: none;
+}
+html body .filter .noviceWindow div .cancelBtn::before, html body .filter .noviceWindow div .cancelBtn::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 52%;
+  width: 0.5vw;
+  height: 5vw;
+  background: #ffffff;
+  border-radius: 1vw;
+}
+html body .filter .noviceWindow div .cancelBtn::before {
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+html body .filter .noviceWindow div .cancelBtn::after {
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+html body .filter .noviceWindow div button:not(.cancelBtn) {
+  width: 70vw;
+  height: 14vw;
+  color: #ffffff;
+  font-size: 4vw;
+  font-weight: bold;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #00000080;
+  border-radius: 10vw;
+  border: solid 1px #ffffff;
+}
+html body .filter .noviceWindow div button:not(.cancelBtn).play {
+  background: #feb300;
+  color: #212832;
+}
 html body .chartWrap {
   width: 100%;
   height: 100%;
@@ -4957,6 +5082,10 @@ html body .memberWrap .top .btnBox ul li a p {
 html body .memberWrap .bottom {
   width: 100%;
   height: auto;
+  display: none;
+}
+html body .memberWrap .bottom.display {
+  display: block;
 }
 html body .memberWrap .bottom ul {
   width: 100%;
@@ -5001,6 +5130,9 @@ html body .memberWrap .bottom ul li a div i.chart_ic {
 }
 html body .memberWrap .bottom ul li a div i.logout_ic {
   background-position-x: 75%;
+}
+html body .memberWrap .bottom ul li a div i.logout_ic.sp {
+  transform: scaleX(-1) translateX(3px);
 }
 html body .memberWrap .bottom ul li a div p {
   color: #feb300;
@@ -5186,6 +5318,13 @@ html body .infoWrap .content ul li .changeBtn {
 html body .infoWrap .content ul li .changeBtn:active, html body .infoWrap .content ul li .changeBtn.active {
   background: #ffffff;
 }
+html body .infoWrap .content ul li .changeBox {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 html body .infoWrap .content .check {
   width: 96%;
   height: 11vw;
@@ -5267,11 +5406,19 @@ html body .postWrap .postCnt {
   height: 100%;
   overflow-y: auto;
 }
-html body .postWrap .postCnt ul {
+html body .postWrap .postCnt .cntBox {
+  width: 100%;
+  height: auto;
+  display: none;
+}
+html body .postWrap .postCnt .cntBox.display {
+  display: block;
+}
+html body .postWrap .postCnt .cntBox ul {
   width: 100%;
   height: auto;
 }
-html body .postWrap .postCnt ul li {
+html body .postWrap .postCnt .cntBox ul li {
   width: 100%;
   height: auto;
   padding: 4vw 4vw 4vw 0;
@@ -5279,10 +5426,10 @@ html body .postWrap .postCnt ul li {
   border-bottom: solid 1px #5c6d79;
   background: #25344b;
 }
-html body .postWrap .postCnt ul li:last-child {
+html body .postWrap .postCnt .cntBox ul li:last-child {
   margin-bottom: 5vw;
 }
-html body .postWrap .postCnt ul li .icBox {
+html body .postWrap .postCnt .cntBox ul li .icBox {
   width: 18vw;
   height: auto;
   display: flex;
@@ -5290,21 +5437,21 @@ html body .postWrap .postCnt ul li .icBox {
   justify-content: center;
   flex-shrink: 0;
 }
-html body .postWrap .postCnt ul li .icBox i {
+html body .postWrap .postCnt .cntBox ul li .icBox i {
   width: 10vw;
   height: 10vw;
 }
-html body .postWrap .postCnt ul li .textBox {
+html body .postWrap .postCnt .cntBox ul li .textBox {
   width: 100%;
   height: auto;
 }
-html body .postWrap .postCnt ul li .textBox .time {
+html body .postWrap .postCnt .cntBox ul li .textBox .time {
   color: #97a0ad;
   font-size: 2vw;
   font-weight: bold;
   margin-bottom: 2vw;
 }
-html body .postWrap .postCnt ul li .textBox .cnt {
+html body .postWrap .postCnt .cntBox ul li .textBox .cnt {
   color: #feb300;
   font-size: 3.7vw;
   font-weight: bold;
